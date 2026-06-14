@@ -1,0 +1,29 @@
+product_id,category,sub_category,product_name,min_price,max_price,base_margin
+P001,Electronics,Mobiles,Samsung Galaxy M Series,12999,24999,0.18
+P002,Electronics,Mobiles,Redmi Note Series,9999,21999,0.17
+P003,Electronics,Mobiles,realme Narzo Series,8999,19999,0.16
+P004,Electronics,Laptops,Lenovo IdeaPad Laptop,38999,74999,0.14
+P005,Electronics,Laptops,HP Pavilion Laptop,45999,89999,0.15
+P006,Electronics,Accessories,boAt Wireless Earbuds,999,3499,0.28
+P007,Electronics,Accessories,Noise Smartwatch,1499,6999,0.25
+P008,Electronics,Accessories,Portronics Power Bank,799,2499,0.22
+P009,Furniture,Chairs,Nilkamal Office Chair,2499,9999,0.09
+P010,Furniture,Tables,Godrej Study Table,4999,15999,0.08
+P011,Furniture,Storage,Wakefit Wardrobe,8999,24999,0.07
+P012,Furniture,Beds,Urban Ladder Queen Bed,14999,44999,0.1
+P013,Furniture,Sofas,Pepperfry Sofa Set,18999,69999,0.06
+P014,Furniture,Chairs,Cello Plastic Chair Set,1499,4999,0.12
+P015,Office Supplies,Stationery,Classmate Notebook Pack,199,799,0.23
+P016,Office Supplies,Stationery,Cello Pen Box,99,499,0.3
+P017,Office Supplies,Printers,Canon Inkjet Printer,4999,15999,0.13
+P018,Office Supplies,Paper,JK Copier Paper Ream,249,599,0.18
+P019,Office Supplies,Organizers,Kangaro Desk Organizer,299,1299,0.21
+P020,Office Supplies,Files,Solo Office File Set,149,699,0.25
+P021,Fashion,Men,Raymond Formal Shirt,899,2999,0.22
+P022,Fashion,Women,Biba Kurti,799,3499,0.24
+P023,Fashion,Footwear,Bata Formal Shoes,999,3999,0.2
+P024,Fashion,Kids,Max Kids Wear Combo,599,2499,0.19
+P025,Home & Kitchen,Appliances,Prestige Mixer Grinder,1999,6999,0.18
+P026,Home & Kitchen,Cookware,Pigeon Non-stick Cookware,999,3999,0.2
+P027,Home & Kitchen,Decor,Jaipur Rugs Carpet,2499,14999,0.16
+P028,Home & Kitchen,Storage,Milton Container Set,399,1999,0.24
