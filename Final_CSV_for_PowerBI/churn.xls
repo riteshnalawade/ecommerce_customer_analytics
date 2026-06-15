@@ -1,0 +1,721 @@
+customer_id,customer_name,segment,city,state,region,last_purchase,frequency,monetary,profit,recency,r_score,f_score,m_score,rfm_score,customer_segment,churn_status,revenue_at_risk
+CUST-0001,Ayaan Sharma,Consumer,Chennai,Tamil Nadu,South,2024-09-24,15,879175.27,103959.0,99,2,3,5,235,At-Risk Customers,Churn Risk,879175.27
+CUST-0002,Krishna Sawant,Corporate,Jaipur,Rajasthan,West,2024-11-21,13,514432.22000000003,47470.53,41,4,2,3,423,Regular Customers,Warm,0.0
+CUST-0003,Riya Gupta,Consumer,Ranchi,Jharkhand,East,2024-12-17,14,246262.22,34139.55,15,5,2,1,521,Regular Customers,Active,0.0
+CUST-0004,Sai Jain,Consumer,Dehradun,Uttarakhand,North,2024-11-26,8,254931.65,16014.24,36,4,1,1,411,Regular Customers,Warm,0.0
+CUST-0005,Vivaan Kulkarni,Corporate,Gurugram,Haryana,North,2024-12-29,14,425472.27999999997,60945.55,3,5,2,2,522,Regular Customers,Active,0.0
+CUST-0006,Riya Shaikh,Consumer,Dehradun,Uttarakhand,North,2024-07-28,16,709514.66,63878.92,157,1,3,4,134,At-Risk Customers,Churn Risk,709514.66
+CUST-0007,Kavya Pandey,Corporate,Mumbai,Maharashtra,West,2024-12-30,14,429786.26,43046.2,2,5,2,2,522,Regular Customers,Active,0.0
+CUST-0008,Ananya Bhosale,Consumer,Ranchi,Jharkhand,East,2024-05-14,25,1041320.73,70840.28,232,1,5,5,155,At-Risk Customers,Likely Churned,1041320.73
+CUST-0009,Ishaan Jain,Consumer,Mysuru,Karnataka,South,2024-12-06,11,212310.57,33079.54,26,4,1,1,411,Regular Customers,Active,0.0
+CUST-0010,Nikhil Verma,Home Office,Coimbatore,Tamil Nadu,South,2024-12-30,22,982858.1599999999,112131.89000000001,2,5,5,5,555,VIP Customers,Active,0.0
+CUST-0011,Nandini Nair,Corporate,Navi Mumbai,Maharashtra,West,2024-12-12,10,814847.98,100346.12000000001,20,5,1,4,514,Regular Customers,Active,0.0
+CUST-0012,Riya Verma,Consumer,Kolkata,West Bengal,East,2024-04-04,13,700565.25,47430.76,272,1,2,4,124,Lost Customers,Likely Churned,700565.25
+CUST-0013,Avni Agarwal,Corporate,Puducherry,Puducherry,South,2024-05-10,16,647136.15,85073.83,236,1,3,4,134,At-Risk Customers,Likely Churned,647136.15
+CUST-0014,Arjun Patel,Corporate,Dehradun,Uttarakhand,North,2024-07-23,14,280393.78,29820.31,162,1,2,1,121,Lost Customers,Churn Risk,280393.78
+CUST-0015,Sai Bansal,Home Office,Dehradun,Uttarakhand,North,2024-12-31,17,668362.48,44432.21,1,5,4,4,544,VIP Customers,Active,0.0
+CUST-0016,Nikhil Nair,Corporate,Gangtok,Sikkim,East,2024-10-20,14,302313.18,37262.59,73,3,2,1,321,Regular Customers,Warm,0.0
+CUST-0017,Pranav Yadav,Consumer,Puducherry,Puducherry,South,2024-02-29,21,653475.07,83196.82,307,1,5,4,154,At-Risk Customers,Likely Churned,653475.07
+CUST-0018,Kavya Bhosale,Corporate,Ahmedabad,Gujarat,West,2024-12-29,21,367642.08,51886.02,3,5,5,2,552,Loyal Customers,Active,0.0
+CUST-0019,Ananya Kulkarni,Consumer,Shimla,Himachal Pradesh,North,2024-08-26,24,711891.4500000001,70233.99,128,2,5,4,254,At-Risk Customers,Churn Risk,711891.4500000001
+CUST-0020,Nikhil Nair 20,Corporate,Dehradun,Uttarakhand,North,2024-09-30,14,899408.8,67485.81,93,2,2,5,225,Lost Customers,Churn Risk,899408.8
+CUST-0021,Vihaan Mehta,Home Office,Navi Mumbai,Maharashtra,West,2024-11-08,16,638381.37,71251.91,54,3,3,3,333,Loyal Customers,Warm,0.0
+CUST-0022,Amit Nair,Consumer,Ahmedabad,Gujarat,West,2024-10-27,20,466169.02,58642.41,66,3,5,2,352,Loyal Customers,Warm,0.0
+CUST-0023,Isha Saxena,Consumer,Vijayawada,Andhra Pradesh,South,2024-12-29,17,440562.69,50112.74,3,5,4,2,542,Loyal Customers,Active,0.0
+CUST-0024,Pooja Khan,Consumer,Gangtok,Sikkim,East,2024-12-23,14,347061.77,38869.62,9,5,2,2,522,Regular Customers,Active,0.0
+CUST-0025,Krishna Mehta,Corporate,Bengaluru,Karnataka,South,2024-09-19,16,718612.51,82587.39,104,2,3,4,234,At-Risk Customers,Churn Risk,718612.51
+CUST-0026,Omkar Saxena,Consumer,Bhubaneswar,Odisha,East,2024-12-01,15,245000.0,32009.07,31,4,3,1,431,Loyal Customers,Warm,0.0
+CUST-0027,Krishna Joshi,Consumer,Raipur,Chhattisgarh,Central,2024-11-19,21,707941.43,48122.619999999995,43,4,5,4,454,VIP Customers,Warm,0.0
+CUST-0028,Vihaan Bansal,Consumer,Panaji,Goa,West,2024-09-07,10,244689.49,28262.97,116,2,1,1,211,Lost Customers,Churn Risk,244689.49
+CUST-0029,Ananya Pandey,Corporate,Ranchi,Jharkhand,East,2023-12-16,18,782036.14,50719.93,382,1,4,4,144,At-Risk Customers,Likely Churned,782036.14
+CUST-0030,Nikhil Khan,Consumer,Gangtok,Sikkim,East,2024-10-21,14,527976.07,54189.82,72,3,2,3,323,Regular Customers,Warm,0.0
+CUST-0031,Meera Bansal,Corporate,Mumbai,Maharashtra,West,2024-10-14,19,680169.28,56862.37,79,3,4,4,344,Loyal Customers,Warm,0.0
+CUST-0032,Ayaan Kadam,Corporate,Chennai,Tamil Nadu,South,2024-07-19,13,571281.5599999999,60337.17,166,1,2,3,123,Lost Customers,Churn Risk,571281.5599999999
+CUST-0033,Rohan Verma,Consumer,Hyderabad,Telangana,South,2024-12-31,14,861603.79,72301.97,1,5,2,4,524,Regular Customers,Active,0.0
+CUST-0034,Yash Sharma,Small Business,Bengaluru,Karnataka,South,2024-12-28,14,487088.86,47415.619999999995,4,5,2,3,523,Regular Customers,Active,0.0
+CUST-0035,Diya Joshi,Home Office,Jaipur,Rajasthan,West,2024-08-21,17,1295737.69,155430.29,133,2,4,5,245,At-Risk Customers,Churn Risk,1295737.69
+CUST-0036,Rekha Agarwal,Consumer,Gurugram,Haryana,North,2024-10-03,21,1257464.8699999999,107573.82,90,2,5,5,255,At-Risk Customers,Warm,0.0
+CUST-0037,Ananya Kulkarni 37,Corporate,Mumbai,Maharashtra,West,2024-11-17,14,409949.36,39328.19,45,4,2,2,422,Regular Customers,Warm,0.0
+CUST-0038,Pooja Sharma,Small Business,Panaji,Goa,West,2024-09-18,13,1558750.4300000002,171812.4,105,2,2,5,225,Lost Customers,Churn Risk,1558750.4300000002
+CUST-0039,Rekha Mehta,Consumer,Nagpur,Maharashtra,West,2024-10-30,15,794652.8899999999,38252.770000000004,63,3,3,4,334,Loyal Customers,Warm,0.0
+CUST-0040,Isha Gupta,Corporate,Surat,Gujarat,West,2024-12-30,13,1649823.92,176062.99,2,5,2,5,525,Regular Customers,Active,0.0
+CUST-0041,Arjun Mishra,Consumer,New Delhi,Delhi,North,2024-08-13,15,484622.43,29823.45,141,1,3,3,133,At-Risk Customers,Churn Risk,484622.43
+CUST-0042,Sneha Kulkarni,Consumer,Noida,Uttar Pradesh,North,2024-12-25,18,595367.54,59336.990000000005,7,5,4,3,543,Loyal Customers,Active,0.0
+CUST-0043,Nandini Shaikh,Small Business,Chandigarh,Chandigarh,North,2024-12-17,14,1846061.4900000002,238701.21,15,5,2,5,525,Regular Customers,Active,0.0
+CUST-0044,Aadhya Bhosale,Consumer,Kochi,Kerala,South,2024-12-19,18,1255215.46,125481.06999999999,13,5,4,5,545,VIP Customers,Active,0.0
+CUST-0045,Pranav Ansari,Consumer,Guwahati,Assam,East,2024-10-28,10,292838.02,28763.34,65,3,1,1,311,Regular Customers,Warm,0.0
+CUST-0046,Myra Gupta,Consumer,Mysuru,Karnataka,South,2024-12-30,19,314172.29,41384.71,2,5,4,1,541,Loyal Customers,Active,0.0
+CUST-0047,Meera Mehta,Consumer,Dehradun,Uttarakhand,North,2024-12-06,20,793601.62,77727.06999999999,26,4,5,4,454,VIP Customers,Active,0.0
+CUST-0048,Vihaan Mehta 48,Home Office,Ahmedabad,Gujarat,West,2024-12-26,16,1091175.23,158359.82,6,5,3,5,535,Loyal Customers,Active,0.0
+CUST-0049,Rohan Gupta,Consumer,Shimla,Himachal Pradesh,North,2024-12-16,15,209592.58,30930.61,16,5,3,1,531,Loyal Customers,Active,0.0
+CUST-0050,Pooja Jain,Corporate,New Delhi,Delhi,North,2024-11-18,10,207312.32,18512.36,44,4,1,1,411,Regular Customers,Warm,0.0
+CUST-0051,Isha Patil,Consumer,Agartala,Tripura,East,2024-03-31,11,84964.12,16057.35,276,1,1,1,111,Lost Customers,Likely Churned,84964.12
+CUST-0052,Sneha Pandey,Consumer,Patna,Bihar,East,2024-09-23,9,170718.24,4236.62,100,2,1,1,211,Lost Customers,Churn Risk,170718.24
+CUST-0053,Reyansh Kadam,Consumer,Ranchi,Jharkhand,East,2024-10-01,16,717829.5,84708.66,92,2,3,4,234,At-Risk Customers,Churn Risk,717829.5
+CUST-0054,Kunal Ansari,Corporate,Nagpur,Maharashtra,West,2024-12-27,13,1160880.67,140842.68,5,5,2,5,525,Regular Customers,Active,0.0
+CUST-0055,Reyansh Patel,Corporate,Bhubaneswar,Odisha,East,2024-08-19,18,1594461.84,156015.85,135,2,4,5,245,At-Risk Customers,Churn Risk,1594461.84
+CUST-0056,Reyansh Mehta,Consumer,Gurugram,Haryana,North,2024-12-04,13,365175.61,48196.98,28,4,2,2,422,Regular Customers,Active,0.0
+CUST-0057,Saurabh Singh,Consumer,Ranchi,Jharkhand,East,2024-12-13,16,1023897.1699999999,149637.37,19,5,3,5,535,Loyal Customers,Active,0.0
+CUST-0058,Yash Mehta,Consumer,Ahmedabad,Gujarat,West,2024-06-29,10,697413.2000000001,82723.2,186,1,1,4,114,Lost Customers,Likely Churned,697413.2000000001
+CUST-0059,Meera Verma,Corporate,Nagpur,Maharashtra,West,2024-09-20,17,897914.68,61026.79,103,2,4,5,245,At-Risk Customers,Churn Risk,897914.68
+CUST-0060,Riya Agarwal,Small Business,Mumbai,Maharashtra,West,2024-11-29,10,219968.0,25614.68,33,4,1,1,411,Regular Customers,Warm,0.0
+CUST-0061,Ira Yadav,Consumer,Patna,Bihar,East,2024-12-15,16,518343.61,68366.27,17,5,3,3,533,Loyal Customers,Active,0.0
+CUST-0062,Saanvi Bansal,Home Office,Bhubaneswar,Odisha,East,2024-10-04,17,476477.98,50545.75,89,2,4,2,242,At-Risk Customers,Warm,0.0
+CUST-0063,Ananya Khan,Small Business,Mumbai,Maharashtra,West,2024-11-15,21,1423057.64,233034.64,47,4,5,5,455,VIP Customers,Warm,0.0
+CUST-0064,Anika Malhotra,Consumer,Gangtok,Sikkim,East,2024-12-11,11,244632.9,40985.46,21,4,1,1,411,Regular Customers,Active,0.0
+CUST-0065,Meera Kadam,Consumer,Raipur,Chhattisgarh,Central,2024-10-10,18,799603.02,130278.71,83,2,4,4,244,At-Risk Customers,Warm,0.0
+CUST-0066,Avni Jain,Corporate,Nagpur,Maharashtra,West,2024-04-28,15,460599.95999999996,27121.04,248,1,3,2,132,At-Risk Customers,Likely Churned,460599.95999999996
+CUST-0067,Riya Patel,Consumer,Vijayawada,Andhra Pradesh,South,2024-12-01,11,509490.82,68801.65,31,4,1,3,413,Regular Customers,Warm,0.0
+CUST-0068,Kritika Deshmukh,Consumer,Noida,Uttar Pradesh,North,2024-07-24,15,466798.65,59289.68,161,1,3,2,132,At-Risk Customers,Churn Risk,466798.65
+CUST-0069,Neha Gupta,Consumer,Ludhiana,Punjab,North,2024-11-21,15,1319591.01,78009.58,41,4,3,5,435,Loyal Customers,Warm,0.0
+CUST-0070,Arjun Kadam,Consumer,Shimla,Himachal Pradesh,North,2024-08-15,17,356486.48,40725.33,139,2,4,2,242,At-Risk Customers,Churn Risk,356486.48
+CUST-0071,Isha Mehta,Corporate,Navi Mumbai,Maharashtra,West,2024-08-15,15,353432.32,43160.97,139,2,3,2,232,At-Risk Customers,Churn Risk,353432.32
+CUST-0072,Kunal Kadam,Small Business,Vijayawada,Andhra Pradesh,South,2024-12-24,14,345847.03,37749.53,8,5,2,2,522,Regular Customers,Active,0.0
+CUST-0073,Saanvi Kadam,Consumer,Vijayawada,Andhra Pradesh,South,2024-12-30,11,271294.95,38710.36,2,5,1,1,511,Regular Customers,Active,0.0
+CUST-0074,Amit Singh,Consumer,Kochi,Kerala,South,2024-12-02,21,645246.97,61414.090000000004,30,4,5,4,454,VIP Customers,Active,0.0
+CUST-0075,Arjun Sharma,Corporate,Gangtok,Sikkim,East,2024-11-28,14,418494.28,66608.81,34,4,2,2,422,Regular Customers,Warm,0.0
+CUST-0076,Isha Verma,Consumer,Ahmedabad,Gujarat,West,2024-12-26,15,721779.04,82305.74,6,5,3,4,534,Loyal Customers,Active,0.0
+CUST-0077,Neha Nair,Small Business,New Delhi,Delhi,North,2024-02-10,13,481396.62,43141.630000000005,326,1,2,3,123,Lost Customers,Likely Churned,481396.62
+CUST-0078,Arjun Saxena,Consumer,Shimla,Himachal Pradesh,North,2024-01-20,10,249999.35,20467.84,347,1,1,1,111,Lost Customers,Likely Churned,249999.35
+CUST-0079,Ananya Ansari,Corporate,Kochi,Kerala,South,2024-09-25,12,680869.33,49800.61,98,2,1,4,214,Lost Customers,Churn Risk,680869.33
+CUST-0080,Priya Sharma,Small Business,Kochi,Kerala,South,2023-12-15,11,353547.31,51866.33,383,1,1,2,112,Lost Customers,Likely Churned,353547.31
+CUST-0081,Reyansh Saxena,Consumer,New Delhi,Delhi,North,2024-10-29,14,614866.27,83768.88,64,3,2,3,323,Regular Customers,Warm,0.0
+CUST-0082,Reyansh Sawant,Consumer,Lucknow,Uttar Pradesh,North,2024-10-09,23,1049321.51,98243.16,84,2,5,5,255,At-Risk Customers,Warm,0.0
+CUST-0083,Nandini Jain,Consumer,Mysuru,Karnataka,South,2024-10-15,12,611692.34,89328.47,78,3,1,3,313,Regular Customers,Warm,0.0
+CUST-0084,Anika Joshi,Consumer,Raipur,Chhattisgarh,Central,2024-12-27,21,299284.91000000003,36417.24,5,5,5,1,551,Loyal Customers,Active,0.0
+CUST-0085,Vihaan Gupta,Home Office,Ranchi,Jharkhand,East,2024-10-31,19,255016.68,29036.11,62,3,4,1,341,Loyal Customers,Warm,0.0
+CUST-0086,Aditya Sharma,Corporate,Mysuru,Karnataka,South,2024-12-14,19,489795.48,54076.16,18,5,4,3,543,Loyal Customers,Active,0.0
+CUST-0087,Anika Yadav,Corporate,Guwahati,Assam,East,2024-12-12,12,485681.88,50983.56,20,4,1,3,413,Regular Customers,Active,0.0
+CUST-0088,Omkar Kulkarni,Consumer,Mumbai,Maharashtra,West,2024-09-07,14,270277.66,21732.76,116,2,2,1,221,Lost Customers,Churn Risk,270277.66
+CUST-0089,Ishaan Kulkarni,Home Office,Navi Mumbai,Maharashtra,West,2024-09-22,19,422509.22000000003,46320.76,101,2,4,2,242,At-Risk Customers,Churn Risk,422509.22000000003
+CUST-0090,Kritika Kulkarni,Consumer,Lucknow,Uttar Pradesh,North,2024-10-06,10,402941.82,39797.5,87,2,1,2,212,Lost Customers,Warm,0.0
+CUST-0091,Aditya Iyer,Home Office,Puducherry,Puducherry,South,2024-07-18,12,173009.94,16820.52,167,1,1,1,111,Lost Customers,Churn Risk,173009.94
+CUST-0092,Aditya Saxena,Consumer,Coimbatore,Tamil Nadu,South,2024-09-01,13,775262.25,52786.899999999994,122,2,2,4,224,Lost Customers,Churn Risk,775262.25
+CUST-0093,Ira Kadam,Consumer,Jaipur,Rajasthan,West,2024-01-02,12,359321.44,18322.91,365,1,1,2,112,Lost Customers,Likely Churned,359321.44
+CUST-0094,Meera Saxena,Small Business,Patna,Bihar,East,2024-09-13,14,316218.14,34892.11,110,2,2,1,221,Lost Customers,Churn Risk,316218.14
+CUST-0095,Ishaan Malhotra,Home Office,Shimla,Himachal Pradesh,North,2024-05-12,12,391077.17,54890.2,234,1,1,2,112,Lost Customers,Likely Churned,391077.17
+CUST-0096,Diya Saxena,Consumer,Patna,Bihar,East,2024-11-15,15,403188.63,25824.5,47,3,3,2,332,Loyal Customers,Warm,0.0
+CUST-0097,Rohan Pandey,Home Office,Patna,Bihar,East,2024-07-28,11,410966.55,12924.28,157,1,1,2,112,Lost Customers,Churn Risk,410966.55
+CUST-0098,Ira Nair,Corporate,Noida,Uttar Pradesh,North,2024-08-20,11,616372.62,74497.31,134,2,1,3,213,Lost Customers,Churn Risk,616372.62
+CUST-0099,Reyansh Khan,Home Office,Navi Mumbai,Maharashtra,West,2024-12-03,13,299720.5,32609.149999999998,29,4,2,1,421,Regular Customers,Active,0.0
+CUST-0100,Myra Jain,Consumer,Gangtok,Sikkim,East,2024-10-23,10,195795.18,26837.8,70,3,1,1,311,Regular Customers,Warm,0.0
+CUST-0101,Myra Mehta,Corporate,Pune,Maharashtra,West,2024-12-16,15,882659.99,109622.26000000001,16,5,3,5,535,Loyal Customers,Active,0.0
+CUST-0102,Amit Reddy,Home Office,Chennai,Tamil Nadu,South,2024-12-16,16,802472.76,5636.710000000004,16,5,3,4,534,Loyal Customers,Active,0.0
+CUST-0103,Kavya Pillai,Corporate,Bhubaneswar,Odisha,East,2024-08-28,17,801021.89,75349.66,126,2,4,4,244,At-Risk Customers,Churn Risk,801021.89
+CUST-0104,Riya Reddy,Consumer,Pune,Maharashtra,West,2024-07-12,17,547865.53,66947.96,173,1,4,3,143,At-Risk Customers,Churn Risk,547865.53
+CUST-0105,Anika Yadav 105,Consumer,Bengaluru,Karnataka,South,2024-10-20,12,234270.53,32966.5,73,3,1,1,311,Regular Customers,Warm,0.0
+CUST-0106,Nandini Shaikh 106,Corporate,Coimbatore,Tamil Nadu,South,2024-12-22,14,1234886.8599999999,114751.43999999999,10,5,2,5,525,Regular Customers,Active,0.0
+CUST-0107,Siddhesh Shaikh,Consumer,Panaji,Goa,West,2024-08-12,15,865828.99,92701.97,142,1,3,5,135,At-Risk Customers,Churn Risk,865828.99
+CUST-0108,Isha Jain,Consumer,Bengaluru,Karnataka,South,2024-05-15,19,629244.4,76314.6,231,1,4,3,143,At-Risk Customers,Likely Churned,629244.4
+CUST-0109,Omkar Sharma,Consumer,Gurugram,Haryana,North,2024-10-13,19,963126.79,103714.24,80,2,4,5,245,At-Risk Customers,Warm,0.0
+CUST-0110,Arjun Kadam 110,Corporate,Mysuru,Karnataka,South,2024-07-23,11,1311416.62,28007.98,162,1,1,5,115,Lost Customers,Churn Risk,1311416.62
+CUST-0111,Ayaan Sawant,Consumer,Kochi,Kerala,South,2024-06-16,12,219721.53,31402.11,199,1,1,1,111,Lost Customers,Likely Churned,219721.53
+CUST-0112,Kunal Reddy,Corporate,Bhubaneswar,Odisha,East,2024-11-24,12,1183268.02,180476.74,38,4,1,5,415,Regular Customers,Warm,0.0
+CUST-0113,Meera Singh,Consumer,Gurugram,Haryana,North,2024-08-11,22,258318.15,30297.800000000003,143,1,5,1,151,At-Risk Customers,Churn Risk,258318.15
+CUST-0114,Nikhil Kadam,Corporate,Ludhiana,Punjab,North,2024-12-26,12,785362.77,84819.73999999999,6,5,1,4,514,Regular Customers,Active,0.0
+CUST-0115,Rekha Khan,Consumer,Mumbai,Maharashtra,West,2024-09-29,13,1349744.84,102669.74,94,2,2,5,225,Lost Customers,Churn Risk,1349744.84
+CUST-0116,Saanvi Shaikh,Consumer,Vijayawada,Andhra Pradesh,South,2023-09-26,10,159044.01,18792.54,463,1,1,1,111,Lost Customers,Likely Churned,159044.01
+CUST-0117,Saurabh Kadam,Consumer,Chandigarh,Chandigarh,North,2024-12-09,14,336125.72000000003,31031.19,23,4,2,2,422,Regular Customers,Active,0.0
+CUST-0118,Ananya Kadam,Consumer,Surat,Gujarat,West,2024-09-28,13,427500.7,43992.78,95,2,2,2,222,Lost Customers,Churn Risk,427500.7
+CUST-0119,Sakshi Reddy,Home Office,Surat,Gujarat,West,2024-12-09,18,505069.37,50715.94,23,4,4,3,443,Loyal Customers,Active,0.0
+CUST-0120,Ira Kadam 120,Consumer,Kochi,Kerala,South,2024-04-29,13,185042.31,18396.760000000002,247,1,2,1,121,Lost Customers,Likely Churned,185042.31
+CUST-0121,Aadhya Singh,Consumer,Pune,Maharashtra,West,2024-10-29,17,1007009.14,111831.01000000001,64,3,4,5,345,Loyal Customers,Warm,0.0
+CUST-0122,Sneha Machale,Consumer,Ahmedabad,Gujarat,West,2024-10-11,13,316273.54,38721.03,82,2,2,1,221,Lost Customers,Warm,0.0
+CUST-0123,Isha Jain 123,Consumer,Kolkata,West Bengal,East,2024-12-22,21,234368.43,35861.6,10,5,5,1,551,Loyal Customers,Active,0.0
+CUST-0124,Ira Singh,Home Office,Mumbai,Maharashtra,West,2024-09-01,16,397614.98,42077.47,122,2,3,2,232,At-Risk Customers,Churn Risk,397614.98
+CUST-0125,Reyansh Mishra,Consumer,Ranchi,Jharkhand,East,2024-08-20,16,376621.24,41954.53,134,2,3,2,232,At-Risk Customers,Churn Risk,376621.24
+CUST-0126,Priya Ansari,Corporate,Nagpur,Maharashtra,West,2024-07-30,8,295930.23,30614.51,155,1,1,1,111,Lost Customers,Churn Risk,295930.23
+CUST-0127,Ayaan Ansari,Home Office,New Delhi,Delhi,North,2024-10-14,9,381431.98,45863.89,79,2,1,2,212,Lost Customers,Warm,0.0
+CUST-0128,Priya Kulkarni,Small Business,Vijayawada,Andhra Pradesh,South,2024-10-15,16,830267.27,88977.01999999999,78,3,3,4,334,Loyal Customers,Warm,0.0
+CUST-0129,Saurabh Machale,Home Office,Ranchi,Jharkhand,East,2024-12-04,21,624510.47,61003.69,28,4,5,3,453,Loyal Customers,Active,0.0
+CUST-0130,Meera Ansari,Corporate,Noida,Uttar Pradesh,North,2024-12-31,25,1174446.29,113106.5,1,5,5,5,555,VIP Customers,Active,0.0
+CUST-0131,Sneha Ansari,Corporate,Bengaluru,Karnataka,South,2024-12-18,15,649406.7,18006.08,14,5,3,4,534,Loyal Customers,Active,0.0
+CUST-0132,Kavya Mishra,Corporate,Raipur,Chhattisgarh,Central,2024-12-30,20,709358.22,67537.62,2,5,5,4,554,VIP Customers,Active,0.0
+CUST-0133,Kavya Ansari,Corporate,Ahmedabad,Gujarat,West,2024-12-09,20,840468.24,89660.51,23,4,5,4,454,VIP Customers,Active,0.0
+CUST-0134,Ira Nair 134,Consumer,Mysuru,Karnataka,South,2024-11-05,13,559318.63,71977.24,57,3,2,3,323,Regular Customers,Warm,0.0
+CUST-0135,Riya Gupta 135,Consumer,New Delhi,Delhi,North,2024-11-05,11,273422.89,25089.52,57,3,1,1,311,Regular Customers,Warm,0.0
+CUST-0136,Nikhil Bhosale,Corporate,Lucknow,Uttar Pradesh,North,2024-12-24,13,914585.0399999999,63032.5,8,5,2,5,525,Regular Customers,Active,0.0
+CUST-0137,Arjun Shaikh,Consumer,Patna,Bihar,East,2024-11-26,11,261225.18,22169.54,36,4,1,1,411,Regular Customers,Warm,0.0
+CUST-0138,Yash Shaikh,Consumer,Nagpur,Maharashtra,West,2024-02-07,15,887592.97,65033.32,329,1,3,5,135,At-Risk Customers,Likely Churned,887592.97
+CUST-0139,Kunal Khan,Home Office,Pune,Maharashtra,West,2024-07-17,14,372068.93,30988.29,168,1,2,2,122,Lost Customers,Churn Risk,372068.93
+CUST-0140,Isha Khan,Consumer,Agartala,Tripura,East,2024-10-06,7,201481.76,28724.39,87,2,1,1,211,Lost Customers,Warm,0.0
+CUST-0141,Rahul Iyer,Home Office,Kolkata,West Bengal,East,2024-10-12,9,94223.92,11184.039999999999,81,2,1,1,211,Lost Customers,Warm,0.0
+CUST-0142,Kunal Kulkarni,Consumer,Dehradun,Uttarakhand,North,2024-10-13,17,590020.8,83121.12,80,2,4,3,243,At-Risk Customers,Warm,0.0
+CUST-0143,Kavya Shaikh,Consumer,Raipur,Chhattisgarh,Central,2024-12-06,14,312312.24,43387.159999999996,26,4,2,1,421,Regular Customers,Active,0.0
+CUST-0144,Rohan Kadam,Corporate,Bhubaneswar,Odisha,East,2024-12-26,12,972055.15,97178.76999999999,6,5,1,5,515,Regular Customers,Active,0.0
+CUST-0145,Yash Malhotra,Small Business,New Delhi,Delhi,North,2024-12-26,14,578918.85,50562.81,6,5,2,3,523,Regular Customers,Active,0.0
+CUST-0146,Riya Sharma,Corporate,Bhubaneswar,Odisha,East,2024-11-07,16,685634.73,50453.15,55,3,3,4,334,Loyal Customers,Warm,0.0
+CUST-0147,Vivaan Gupta,Consumer,Ranchi,Jharkhand,East,2024-05-02,11,290411.87,16028.66,244,1,1,1,111,Lost Customers,Likely Churned,290411.87
+CUST-0148,Yash Yadav,Consumer,Nagpur,Maharashtra,West,2024-12-25,17,670635.72,49913.06,7,5,4,4,544,VIP Customers,Active,0.0
+CUST-0149,Siddhesh Jain,Consumer,Gangtok,Sikkim,East,2024-10-16,13,326619.79000000004,40129.35,77,3,2,2,322,Regular Customers,Warm,0.0
+CUST-0150,Nikhil Nair 150,Consumer,Patna,Bihar,East,2024-08-14,12,307226.84,28324.41,140,1,2,1,121,Lost Customers,Churn Risk,307226.84
+CUST-0151,Sai Deshmukh,Corporate,Pune,Maharashtra,West,2024-08-15,18,806666.58,51906.93,139,2,4,4,244,At-Risk Customers,Churn Risk,806666.58
+CUST-0152,Vihaan Pillai,Corporate,Dehradun,Uttarakhand,North,2024-12-04,8,489253.71,19309.019999999997,28,4,1,3,413,Regular Customers,Active,0.0
+CUST-0153,Aditya Mishra,Small Business,Pune,Maharashtra,West,2024-09-13,16,266550.56,25735.13,110,2,3,1,231,At-Risk Customers,Churn Risk,266550.56
+CUST-0154,Aadhya Agarwal,Corporate,Pune,Maharashtra,West,2024-09-23,20,766543.62,54363.840000000004,100,2,5,4,254,At-Risk Customers,Churn Risk,766543.62
+CUST-0155,Ira Singh 155,Corporate,Agartala,Tripura,East,2024-12-03,13,897127.07,74697.93,29,4,2,5,425,Regular Customers,Active,0.0
+CUST-0156,Isha Jain 156,Corporate,Gangtok,Sikkim,East,2024-12-12,17,361530.08,33393.32,20,4,4,2,442,Loyal Customers,Active,0.0
+CUST-0157,Pranav Yadav 157,Corporate,Panaji,Goa,West,2024-08-26,16,911781.54,47870.9,128,2,3,5,235,At-Risk Customers,Churn Risk,911781.54
+CUST-0158,Ananya Iyer,Corporate,Jaipur,Rajasthan,West,2024-08-28,14,497724.08,40099.89,126,2,2,3,223,Lost Customers,Churn Risk,497724.08
+CUST-0159,Rekha Patil,Consumer,Kolkata,West Bengal,East,2024-12-12,17,882525.5700000001,130758.87,20,4,4,5,445,VIP Customers,Active,0.0
+CUST-0160,Aadhya Gupta,Consumer,Shimla,Himachal Pradesh,North,2024-12-08,9,228463.61000000002,36405.03,24,4,1,1,411,Regular Customers,Active,0.0
+CUST-0161,Rekha Bansal,Corporate,Panaji,Goa,West,2024-05-29,16,837804.58,110119.23,217,1,3,4,134,At-Risk Customers,Likely Churned,837804.58
+CUST-0162,Isha Pandey,Consumer,Navi Mumbai,Maharashtra,West,2023-12-05,14,1018668.55,108080.13,393,1,2,5,125,Lost Customers,Likely Churned,1018668.55
+CUST-0163,Omkar Kadam,Consumer,Puducherry,Puducherry,South,2024-12-04,16,534231.7,29789.45,28,4,3,3,433,Loyal Customers,Active,0.0
+CUST-0164,Rohan Sharma,Home Office,Patna,Bihar,East,2024-06-25,14,964892.14,59956.46,190,1,2,5,125,Lost Customers,Likely Churned,964892.14
+CUST-0165,Reyansh Shaikh,Corporate,Puducherry,Puducherry,South,2024-11-29,24,1108162.58,116991.18,33,4,5,5,455,VIP Customers,Warm,0.0
+CUST-0166,Yash Bhosale,Consumer,Lucknow,Uttar Pradesh,North,2024-08-19,16,699124.42,49802.25,135,2,3,4,234,At-Risk Customers,Churn Risk,699124.42
+CUST-0167,Priya Chavan,Corporate,Chennai,Tamil Nadu,South,2024-10-25,13,464568.26,51458.82,68,3,2,2,322,Regular Customers,Warm,0.0
+CUST-0168,Riya Mishra,Consumer,Agartala,Tripura,East,2024-05-04,15,541577.94,40687.57,242,1,3,3,133,At-Risk Customers,Likely Churned,541577.94
+CUST-0169,Kritika Nair,Home Office,Vijayawada,Andhra Pradesh,South,2024-09-27,16,1077675.73,114887.06999999999,96,2,3,5,235,At-Risk Customers,Churn Risk,1077675.73
+CUST-0170,Sai Nair,Consumer,Guwahati,Assam,East,2024-08-18,18,529301.45,58102.76,136,2,4,3,243,At-Risk Customers,Churn Risk,529301.45
+CUST-0171,Yash Patil,Consumer,Kolkata,West Bengal,East,2024-11-09,18,404564.55,37291.14,53,3,4,2,342,Loyal Customers,Warm,0.0
+CUST-0172,Pooja Bansal,Consumer,Vijayawada,Andhra Pradesh,South,2024-07-27,14,678018.63,35013.42,158,1,2,4,124,Lost Customers,Churn Risk,678018.63
+CUST-0173,Saanvi Pillai,Consumer,Bengaluru,Karnataka,South,2024-08-14,17,487205.82,51429.700000000004,140,1,4,3,143,At-Risk Customers,Churn Risk,487205.82
+CUST-0174,Nandini Bhosale,Corporate,Chennai,Tamil Nadu,South,2024-10-26,7,574871.72,31544.99,67,3,1,3,313,Regular Customers,Warm,0.0
+CUST-0175,Priya Jain,Consumer,Surat,Gujarat,West,2024-12-03,17,859940.7100000001,91925.03,29,4,4,4,444,VIP Customers,Active,0.0
+CUST-0176,Kunal Deshmukh,Corporate,Shimla,Himachal Pradesh,North,2024-10-05,11,730828.2,90185.17,88,2,1,4,214,Lost Customers,Warm,0.0
+CUST-0177,Pooja Ansari,Consumer,Pune,Maharashtra,West,2024-11-25,9,192860.31,19642.7,37,4,1,1,411,Regular Customers,Warm,0.0
+CUST-0178,Myra Khan,Consumer,Shimla,Himachal Pradesh,North,2024-08-17,24,937606.88,108026.77,137,2,5,5,255,At-Risk Customers,Churn Risk,937606.88
+CUST-0179,Kritika Pillai,Corporate,Agartala,Tripura,East,2024-11-18,11,531786.29,56393.72,44,4,1,3,413,Regular Customers,Warm,0.0
+CUST-0180,Rahul Shaikh,Consumer,Mysuru,Karnataka,South,2024-12-26,21,1368373.0999999999,155979.3,6,5,5,5,555,VIP Customers,Active,0.0
+CUST-0181,Yash Nair,Consumer,Kochi,Kerala,South,2024-09-10,15,789711.04,96902.59000000001,113,2,3,4,234,At-Risk Customers,Churn Risk,789711.04
+CUST-0182,Ayaan Sawant 182,Consumer,Gurugram,Haryana,North,2024-06-16,10,473742.68,45433.17,199,1,1,2,112,Lost Customers,Likely Churned,473742.68
+CUST-0183,Riya Mishra 183,Consumer,Ludhiana,Punjab,North,2024-12-01,15,409193.15,36489.92,31,4,3,2,432,Loyal Customers,Warm,0.0
+CUST-0184,Sneha Nair,Small Business,Hyderabad,Telangana,South,2024-08-16,9,294909.29,27081.72,138,2,1,1,211,Lost Customers,Churn Risk,294909.29
+CUST-0185,Aadhya Iyer,Consumer,Dehradun,Uttarakhand,North,2024-10-28,11,242223.33000000002,20494.33,65,3,1,1,311,Regular Customers,Warm,0.0
+CUST-0186,Rekha Sharma,Consumer,New Delhi,Delhi,North,2024-11-06,12,527301.11,68634.39,56,3,2,3,323,Regular Customers,Warm,0.0
+CUST-0187,Vihaan Kulkarni,Corporate,Hyderabad,Telangana,South,2024-10-28,18,1370127.77,188207.83000000002,65,3,4,5,345,Loyal Customers,Warm,0.0
+CUST-0188,Krishna Chavan,Consumer,Raipur,Chhattisgarh,Central,2024-11-25,14,295251.46,36194.99,37,4,2,1,421,Regular Customers,Warm,0.0
+CUST-0189,Aarav Patil,Consumer,Hyderabad,Telangana,South,2024-10-02,10,217664.28,36277.03,91,2,1,1,211,Lost Customers,Churn Risk,217664.28
+CUST-0190,Saurabh Reddy,Small Business,Ludhiana,Punjab,North,2024-11-30,14,615717.21,75872.97,32,4,2,3,423,Regular Customers,Warm,0.0
+CUST-0191,Anika Bansal,Consumer,Agartala,Tripura,East,2024-10-06,14,106977.36,12463.55,87,2,2,1,221,Lost Customers,Warm,0.0
+CUST-0192,Arjun Khan,Consumer,Raipur,Chhattisgarh,Central,2024-07-03,23,942213.67,35441.39,182,1,5,5,155,At-Risk Customers,Likely Churned,942213.67
+CUST-0193,Vihaan Singh,Home Office,Lucknow,Uttar Pradesh,North,2024-11-08,22,735039.13,72202.75,54,3,5,4,354,Loyal Customers,Warm,0.0
+CUST-0194,Rekha Gupta,Consumer,Shimla,Himachal Pradesh,North,2024-09-05,14,1096286.8499999999,99439.63,118,2,2,5,225,Lost Customers,Churn Risk,1096286.8499999999
+CUST-0195,Kunal Machale,Corporate,Dehradun,Uttarakhand,North,2024-12-25,11,356336.76,43852.79,7,5,1,2,512,Regular Customers,Active,0.0
+CUST-0196,Nikhil Ansari,Consumer,Guwahati,Assam,East,2024-11-10,19,324200.78,34599.3,52,3,4,2,342,Loyal Customers,Warm,0.0
+CUST-0197,Kritika Shaikh,Corporate,Kochi,Kerala,South,2024-12-14,12,862657.62,67521.2,18,5,2,4,524,Regular Customers,Active,0.0
+CUST-0198,Vihaan Machale,Small Business,Jaipur,Rajasthan,West,2024-02-23,16,485454.73,55972.5,313,1,3,3,133,At-Risk Customers,Likely Churned,485454.73
+CUST-0199,Saanvi Chavan,Consumer,Chandigarh,Chandigarh,North,2024-12-07,12,288187.47,13711.069999999998,25,4,2,1,421,Regular Customers,Active,0.0
+CUST-0200,Sai Yadav,Consumer,Shimla,Himachal Pradesh,North,2024-12-26,14,354375.5,54162.15,6,5,2,2,522,Regular Customers,Active,0.0
+CUST-0201,Arjun Yadav,Consumer,Mumbai,Maharashtra,West,2024-10-20,9,654379.24,37771.19,73,3,1,4,314,Regular Customers,Warm,0.0
+CUST-0202,Nandini Deshmukh,Consumer,Hyderabad,Telangana,South,2024-11-23,16,722810.24,80416.92,39,4,3,4,434,Loyal Customers,Warm,0.0
+CUST-0203,Avni Bhosale,Corporate,Hyderabad,Telangana,South,2024-05-24,16,1082280.92,130921.79000000001,222,1,3,5,135,At-Risk Customers,Likely Churned,1082280.92
+CUST-0204,Yash Gupta,Small Business,Dehradun,Uttarakhand,North,2024-11-13,22,824258.93,89141.71,49,3,5,4,354,Loyal Customers,Warm,0.0
+CUST-0205,Kritika Kadam,Consumer,Gurugram,Haryana,North,2024-11-04,11,226236.48,30627.04,58,3,1,1,311,Regular Customers,Warm,0.0
+CUST-0206,Riya Mehta,Home Office,Lucknow,Uttar Pradesh,North,2024-06-10,11,173974.54,16440.0,205,1,1,1,111,Lost Customers,Likely Churned,173974.54
+CUST-0207,Ishaan Gupta,Consumer,Nagpur,Maharashtra,West,2024-10-30,18,1070145.47,127093.04000000001,63,3,4,5,345,Loyal Customers,Warm,0.0
+CUST-0208,Rekha Machale,Consumer,Hyderabad,Telangana,South,2024-08-14,18,577352.8300000001,60802.759999999995,140,1,4,3,143,At-Risk Customers,Churn Risk,577352.8300000001
+CUST-0209,Yash Bhosale 209,Corporate,Kochi,Kerala,South,2024-08-15,18,1226976.79,145102.32,139,2,4,5,245,At-Risk Customers,Churn Risk,1226976.79
+CUST-0210,Kavya Joshi,Consumer,Raipur,Chhattisgarh,Central,2024-08-06,24,414707.73,22745.62,148,1,5,2,152,At-Risk Customers,Churn Risk,414707.73
+CUST-0211,Nandini Patel,Corporate,Ranchi,Jharkhand,East,2024-05-13,11,291619.17,29660.809999999998,233,1,1,1,111,Lost Customers,Likely Churned,291619.17
+CUST-0212,Nandini Nair 212,Consumer,Pune,Maharashtra,West,2024-12-31,26,493333.7,38298.54,1,5,5,3,553,Loyal Customers,Active,0.0
+CUST-0213,Isha Patil 213,Small Business,Pune,Maharashtra,West,2024-09-18,18,700527.23,69053.33,105,2,4,4,244,At-Risk Customers,Churn Risk,700527.23
+CUST-0214,Kavya Patil,Corporate,Navi Mumbai,Maharashtra,West,2024-12-21,15,1205399.0999999999,119406.34,11,5,3,5,535,Loyal Customers,Active,0.0
+CUST-0215,Diya Deshmukh,Home Office,Guwahati,Assam,East,2024-10-29,18,303910.63,24444.0,64,3,4,1,341,Loyal Customers,Warm,0.0
+CUST-0216,Diya Patil,Corporate,Ranchi,Jharkhand,East,2024-12-14,17,332324.03,12658.35,18,5,4,2,542,Loyal Customers,Active,0.0
+CUST-0217,Pooja Gupta,Consumer,Agartala,Tripura,East,2024-11-20,18,444027.18,40776.04,42,4,4,2,442,Loyal Customers,Warm,0.0
+CUST-0218,Rohan Reddy,Home Office,Jaipur,Rajasthan,West,2024-09-14,16,1057277.03,132280.16,109,2,3,5,235,At-Risk Customers,Churn Risk,1057277.03
+CUST-0219,Rohan Shaikh,Consumer,Raipur,Chhattisgarh,Central,2024-08-14,15,474207.18,46909.45,140,1,3,2,132,At-Risk Customers,Churn Risk,474207.18
+CUST-0220,Amit Agarwal,Consumer,Navi Mumbai,Maharashtra,West,2024-12-30,21,1194132.3,62198.09,2,5,5,5,555,VIP Customers,Active,0.0
+CUST-0221,Siddhesh Nair,Consumer,Vijayawada,Andhra Pradesh,South,2024-12-15,12,718845.37,83535.63,17,5,2,4,524,Regular Customers,Active,0.0
+CUST-0222,Amit Bansal,Corporate,Mumbai,Maharashtra,West,2024-10-15,14,744219.29,87586.03,78,3,2,4,324,Regular Customers,Warm,0.0
+CUST-0223,Riya Ansari,Consumer,Patna,Bihar,East,2024-10-15,14,469383.52999999997,67676.32,78,3,2,2,322,Regular Customers,Warm,0.0
+CUST-0224,Priya Pillai,Corporate,Raipur,Chhattisgarh,Central,2024-07-15,14,585213.19,55615.15,170,1,2,3,123,Lost Customers,Churn Risk,585213.19
+CUST-0225,Vihaan Jain,Consumer,Chennai,Tamil Nadu,South,2024-03-17,9,280848.54,22361.09,290,1,1,1,111,Lost Customers,Likely Churned,280848.54
+CUST-0226,Avni Ansari,Consumer,Raipur,Chhattisgarh,Central,2024-07-28,14,538090.32,42218.83,157,1,2,3,123,Lost Customers,Churn Risk,538090.32
+CUST-0227,Nandini Pandey,Corporate,Shimla,Himachal Pradesh,North,2024-12-23,19,1371987.3800000001,139716.84,9,5,4,5,545,VIP Customers,Active,0.0
+CUST-0228,Rekha Kulkarni,Corporate,Mumbai,Maharashtra,West,2024-12-03,15,743252.86,42322.04,29,4,3,4,434,Loyal Customers,Active,0.0
+CUST-0229,Sai Mehta,Consumer,Panaji,Goa,West,2024-11-20,13,376826.08,35415.2,42,4,2,2,422,Regular Customers,Warm,0.0
+CUST-0230,Ayaan Chavan,Consumer,Lucknow,Uttar Pradesh,North,2024-08-11,20,373105.05,51844.659999999996,143,1,5,2,152,At-Risk Customers,Churn Risk,373105.05
+CUST-0231,Avni Joshi,Consumer,Chennai,Tamil Nadu,South,2024-10-25,10,151713.37,20348.3,68,3,1,1,311,Regular Customers,Warm,0.0
+CUST-0232,Sneha Deshmukh,Consumer,Shimla,Himachal Pradesh,North,2024-11-11,20,860819.6,59050.25,51,3,5,4,354,Loyal Customers,Warm,0.0
+CUST-0233,Ishaan Khan,Small Business,Gurugram,Haryana,North,2024-12-16,18,1296259.76,130861.14,16,5,4,5,545,VIP Customers,Active,0.0
+CUST-0234,Neha Sawant,Home Office,New Delhi,Delhi,North,2024-12-24,10,392930.20999999996,52635.83,8,5,1,2,512,Regular Customers,Active,0.0
+CUST-0235,Kavya Mishra 235,Consumer,Patna,Bihar,East,2024-10-05,13,427087.22,36561.08,88,2,2,2,222,Lost Customers,Warm,0.0
+CUST-0236,Neha Nair 236,Consumer,Mumbai,Maharashtra,West,2024-08-27,22,894962.34,63251.21,127,2,5,5,255,At-Risk Customers,Churn Risk,894962.34
+CUST-0237,Rekha Agarwal 237,Home Office,Raipur,Chhattisgarh,Central,2024-09-06,7,425192.5,48791.5,117,2,1,2,212,Lost Customers,Churn Risk,425192.5
+CUST-0238,Saurabh Kulkarni,Consumer,Agartala,Tripura,East,2023-12-27,8,251798.7,17936.190000000002,371,1,1,1,111,Lost Customers,Likely Churned,251798.7
+CUST-0239,Meera Mishra,Consumer,Kolkata,West Bengal,East,2024-12-12,15,638398.23,56664.96,20,4,3,4,434,Loyal Customers,Active,0.0
+CUST-0240,Siddhesh Bansal,Small Business,Gurugram,Haryana,North,2023-12-25,17,566103.1799999999,59097.479999999996,373,1,4,3,143,At-Risk Customers,Likely Churned,566103.1799999999
+CUST-0241,Ira Patil,Consumer,Kolkata,West Bengal,East,2024-09-08,15,374634.29,26965.58,115,2,3,2,232,At-Risk Customers,Churn Risk,374634.29
+CUST-0242,Kunal Patel,Corporate,Vijayawada,Andhra Pradesh,South,2024-08-14,20,948215.1499999999,143172.16,140,1,5,5,155,At-Risk Customers,Churn Risk,948215.1499999999
+CUST-0243,Nikhil Khan 243,Consumer,Lucknow,Uttar Pradesh,North,2024-12-05,19,585179.64,62912.5,27,4,5,3,453,Loyal Customers,Active,0.0
+CUST-0244,Aditya Singh,Home Office,Mysuru,Karnataka,South,2024-09-15,16,854344.5700000001,82847.09999999999,108,2,3,4,234,At-Risk Customers,Churn Risk,854344.5700000001
+CUST-0245,Saurabh Verma,Consumer,Gangtok,Sikkim,East,2023-12-11,11,110311.37,8464.16,387,1,1,1,111,Lost Customers,Likely Churned,110311.37
+CUST-0246,Ishaan Shaikh,Consumer,Lucknow,Uttar Pradesh,North,2024-12-11,17,675145.67,89446.83,21,4,4,4,444,VIP Customers,Active,0.0
+CUST-0247,Anika Reddy,Corporate,Bhubaneswar,Odisha,East,2024-12-28,15,449045.78,51351.44,4,5,3,2,532,Loyal Customers,Active,0.0
+CUST-0248,Rohan Bansal,Small Business,Kolkata,West Bengal,East,2024-11-05,14,674920.5599999999,64616.0,57,3,2,4,324,Regular Customers,Warm,0.0
+CUST-0249,Pooja Bansal 249,Corporate,Navi Mumbai,Maharashtra,West,2024-12-23,21,1243045.26,144198.30000000002,9,5,5,5,555,VIP Customers,Active,0.0
+CUST-0250,Ira Chavan,Small Business,Hyderabad,Telangana,South,2024-08-02,10,500090.8,32976.39,152,1,1,3,113,Lost Customers,Churn Risk,500090.8
+CUST-0251,Sai Shaikh,Corporate,Jaipur,Rajasthan,West,2024-10-10,16,932568.8300000001,15962.330000000002,83,2,3,5,235,At-Risk Customers,Warm,0.0
+CUST-0252,Reyansh Ansari,Corporate,Noida,Uttar Pradesh,North,2024-10-18,13,326734.25,41768.850000000006,75,3,2,2,322,Regular Customers,Warm,0.0
+CUST-0253,Vivaan Patel,Corporate,Vijayawada,Andhra Pradesh,South,2024-02-23,10,760703.23,66168.23,313,1,1,4,114,Lost Customers,Likely Churned,760703.23
+CUST-0254,Avni Pillai,Consumer,Puducherry,Puducherry,South,2024-08-31,10,34570.08,4195.85,123,2,1,1,211,Lost Customers,Churn Risk,34570.08
+CUST-0255,Ira Joshi,Corporate,Patna,Bihar,East,2024-09-25,8,208246.36000000002,13495.119999999999,98,2,1,1,211,Lost Customers,Churn Risk,208246.36000000002
+CUST-0256,Diya Yadav,Consumer,Ludhiana,Punjab,North,2024-01-11,13,252969.9,24162.920000000002,356,1,2,1,121,Lost Customers,Likely Churned,252969.9
+CUST-0257,Nikhil Machale,Consumer,Shimla,Himachal Pradesh,North,2024-12-31,13,228853.59999999998,22117.09,1,5,2,1,521,Regular Customers,Active,0.0
+CUST-0258,Kritika Singh,Consumer,Dehradun,Uttarakhand,North,2024-10-20,13,493821.48,55352.02,73,3,2,3,323,Regular Customers,Warm,0.0
+CUST-0259,Anika Ansari,Corporate,Bengaluru,Karnataka,South,2024-11-04,26,1133252.74,142975.39,58,3,5,5,355,Loyal Customers,Warm,0.0
+CUST-0260,Yash Saxena,Corporate,Hyderabad,Telangana,South,2024-12-17,15,708517.44,77821.33,15,5,3,4,534,Loyal Customers,Active,0.0
+CUST-0261,Ananya Gupta,Small Business,Guwahati,Assam,East,2024-10-09,13,199884.54,17419.99,84,2,2,1,221,Lost Customers,Warm,0.0
+CUST-0262,Kritika Iyer,Corporate,Ranchi,Jharkhand,East,2024-12-23,20,606082.75,71886.37,9,5,5,3,553,Loyal Customers,Active,0.0
+CUST-0263,Yash Bansal,Consumer,Kochi,Kerala,South,2024-11-06,11,798817.62,52935.380000000005,56,3,1,4,314,Regular Customers,Warm,0.0
+CUST-0264,Nikhil Bansal,Consumer,Agartala,Tripura,East,2024-12-19,28,1209084.83,80436.62,13,5,5,5,555,VIP Customers,Active,0.0
+CUST-0265,Nikhil Patil,Corporate,Coimbatore,Tamil Nadu,South,2024-09-23,15,448433.92,53706.14,100,2,3,2,232,At-Risk Customers,Churn Risk,448433.92
+CUST-0266,Avni Sharma,Consumer,Bhubaneswar,Odisha,East,2024-05-31,12,405826.25,21452.11,215,1,2,2,122,Lost Customers,Likely Churned,405826.25
+CUST-0267,Isha Bansal,Home Office,Nagpur,Maharashtra,West,2024-09-26,20,1089711.82,84237.29000000001,97,2,5,5,255,At-Risk Customers,Churn Risk,1089711.82
+CUST-0268,Pooja Agarwal,Corporate,Hyderabad,Telangana,South,2024-04-18,16,706227.19,81734.04000000001,258,1,3,4,134,At-Risk Customers,Likely Churned,706227.19
+CUST-0269,Myra Machale,Consumer,Coimbatore,Tamil Nadu,South,2024-05-03,13,293292.04000000004,36959.630000000005,243,1,2,1,121,Lost Customers,Likely Churned,293292.04000000004
+CUST-0270,Aadhya Machale,Corporate,Bengaluru,Karnataka,South,2024-09-30,16,931317.02,90026.86,93,2,3,5,235,At-Risk Customers,Churn Risk,931317.02
+CUST-0271,Krishna Chavan 271,Home Office,Jaipur,Rajasthan,West,2024-12-29,16,1142193.89,99341.38,3,5,3,5,535,Loyal Customers,Active,0.0
+CUST-0272,Aditya Iyer 272,Consumer,Guwahati,Assam,East,2024-07-19,19,436543.37,35520.26,166,1,5,2,152,At-Risk Customers,Churn Risk,436543.37
+CUST-0273,Pranav Sawant,Consumer,New Delhi,Delhi,North,2024-12-19,19,856948.13,81833.07,13,5,5,4,554,VIP Customers,Active,0.0
+CUST-0274,Avni Reddy,Consumer,Patna,Bihar,East,2024-01-17,9,341057.12,53788.81,350,1,1,2,112,Lost Customers,Likely Churned,341057.12
+CUST-0275,Krishna Pandey,Consumer,Puducherry,Puducherry,South,2024-10-22,17,829873.74,95698.65,71,3,4,4,344,Loyal Customers,Warm,0.0
+CUST-0276,Kavya Agarwal,Consumer,Noida,Uttar Pradesh,North,2024-12-15,11,356575.45,38202.86,17,5,1,2,512,Regular Customers,Active,0.0
+CUST-0277,Sneha Pandey 277,Corporate,Hyderabad,Telangana,South,2024-06-20,11,295876.7,37979.14,195,1,1,1,111,Lost Customers,Likely Churned,295876.7
+CUST-0278,Rohan Pandey 278,Consumer,Panaji,Goa,West,2024-06-24,15,534357.5700000001,77489.33,191,1,3,3,133,At-Risk Customers,Likely Churned,534357.5700000001
+CUST-0279,Arjun Singh,Home Office,Dehradun,Uttarakhand,North,2024-12-14,12,149965.51,23847.25,18,5,2,1,521,Regular Customers,Active,0.0
+CUST-0280,Amit Bansal 280,Consumer,Puducherry,Puducherry,South,2024-12-27,19,468036.5,54826.549999999996,5,5,5,2,552,Loyal Customers,Active,0.0
+CUST-0281,Amit Sharma,Consumer,Bengaluru,Karnataka,South,2024-10-11,15,302289.45,35331.14,82,2,3,1,231,At-Risk Customers,Warm,0.0
+CUST-0282,Yash Pillai,Corporate,Bengaluru,Karnataka,South,2024-12-17,15,934193.47,75737.36,15,5,3,5,535,Loyal Customers,Active,0.0
+CUST-0283,Pranav Verma,Consumer,Dehradun,Uttarakhand,North,2024-11-28,15,969173.66,91623.15,34,4,3,5,435,Loyal Customers,Warm,0.0
+CUST-0284,Sakshi Saxena,Home Office,Vijayawada,Andhra Pradesh,South,2024-12-04,13,926450.7,73019.3,28,4,2,5,425,Regular Customers,Active,0.0
+CUST-0285,Myra Chavan,Corporate,Ahmedabad,Gujarat,West,2024-12-13,17,335778.81,31131.440000000002,19,5,4,2,542,Loyal Customers,Active,0.0
+CUST-0286,Yash Malhotra 286,Corporate,Kochi,Kerala,South,2024-11-11,23,1087644.86,143704.01,51,3,5,5,355,Loyal Customers,Warm,0.0
+CUST-0287,Ayaan Singh,Small Business,Navi Mumbai,Maharashtra,West,2024-10-26,26,1751789.57,124155.78,67,3,5,5,355,Loyal Customers,Warm,0.0
+CUST-0288,Rekha Deshmukh,Consumer,Panaji,Goa,West,2024-12-18,14,414022.91,47962.95,14,5,2,2,522,Regular Customers,Active,0.0
+CUST-0289,Riya Singh,Consumer,Kolkata,West Bengal,East,2024-12-08,17,752523.22,68897.26000000001,24,4,4,4,444,VIP Customers,Active,0.0
+CUST-0290,Riya Shaikh 290,Home Office,Lucknow,Uttar Pradesh,North,2024-08-14,16,1299149.67,86279.54000000001,140,1,3,5,135,At-Risk Customers,Churn Risk,1299149.67
+CUST-0291,Reyansh Agarwal,Corporate,Raipur,Chhattisgarh,Central,2024-12-05,17,470216.45999999996,66660.25,27,4,4,2,442,Loyal Customers,Active,0.0
+CUST-0292,Kavya Patel,Consumer,Puducherry,Puducherry,South,2024-12-27,15,403259.35,37049.03,5,5,3,2,532,Loyal Customers,Active,0.0
+CUST-0293,Saurabh Mehta,Consumer,Puducherry,Puducherry,South,2024-11-23,15,1058298.56,83758.23,39,4,3,5,435,Loyal Customers,Warm,0.0
+CUST-0294,Pranav Kulkarni,Consumer,Coimbatore,Tamil Nadu,South,2024-11-16,26,1157525.97,74850.81,46,4,5,5,455,VIP Customers,Warm,0.0
+CUST-0295,Kavya Jain,Small Business,Panaji,Goa,West,2024-12-25,20,888802.7000000001,59448.11,7,5,5,5,555,VIP Customers,Active,0.0
+CUST-0296,Yash Gupta 296,Corporate,Chandigarh,Chandigarh,North,2024-10-07,13,412804.22,41734.58,86,2,2,2,222,Lost Customers,Warm,0.0
+CUST-0297,Nandini Sharma,Corporate,Nagpur,Maharashtra,West,2024-11-22,15,1440859.74,139388.83000000002,40,4,3,5,435,Loyal Customers,Warm,0.0
+CUST-0298,Ira Singh 298,Consumer,Chandigarh,Chandigarh,North,2024-10-31,15,310758.89,31818.2,62,3,3,1,331,Loyal Customers,Warm,0.0
+CUST-0299,Meera Jain,Home Office,Chandigarh,Chandigarh,North,2024-12-01,21,798218.6799999999,38900.090000000004,31,4,5,4,454,VIP Customers,Warm,0.0
+CUST-0300,Myra Reddy,Corporate,Lucknow,Uttar Pradesh,North,2024-11-14,11,614340.16,77723.64,48,3,1,3,313,Regular Customers,Warm,0.0
+CUST-0301,Nandini Sharma 301,Home Office,Chennai,Tamil Nadu,South,2024-10-20,16,337585.61,46618.17,73,3,3,2,332,Loyal Customers,Warm,0.0
+CUST-0302,Ishaan Singh,Corporate,Bengaluru,Karnataka,South,2024-11-22,21,1529638.97,109030.6,40,4,5,5,455,VIP Customers,Warm,0.0
+CUST-0303,Ayaan Kadam 303,Consumer,Pune,Maharashtra,West,2024-11-19,14,553436.51,21341.320000000003,43,4,2,3,423,Regular Customers,Warm,0.0
+CUST-0304,Rahul Pandey,Corporate,Shimla,Himachal Pradesh,North,2024-08-19,8,635816.8300000001,51136.659999999996,135,2,1,3,213,Lost Customers,Churn Risk,635816.8300000001
+CUST-0305,Vivaan Yadav,Consumer,Bengaluru,Karnataka,South,2024-12-30,19,1326346.8900000001,144191.75,2,5,5,5,555,VIP Customers,Active,0.0
+CUST-0306,Kunal Joshi,Corporate,Panaji,Goa,West,2024-12-16,12,398613.57,39628.39,16,5,2,2,522,Regular Customers,Active,0.0
+CUST-0307,Sneha Ansari 307,Consumer,Puducherry,Puducherry,South,2024-12-09,17,590741.6,53197.17,23,4,4,3,443,Loyal Customers,Active,0.0
+CUST-0308,Reyansh Ansari 308,Small Business,Dehradun,Uttarakhand,North,2024-07-20,13,501571.41,16848.47,165,1,2,3,123,Lost Customers,Churn Risk,501571.41
+CUST-0309,Aditya Sawant,Consumer,Kochi,Kerala,South,2024-08-01,19,850467.29,109981.45999999999,153,1,5,4,154,At-Risk Customers,Churn Risk,850467.29
+CUST-0310,Vivaan Patel 310,Home Office,Agartala,Tripura,East,2024-09-06,12,204407.4,26841.97,117,2,2,1,221,Lost Customers,Churn Risk,204407.4
+CUST-0311,Omkar Kadam 311,Consumer,Jaipur,Rajasthan,West,2024-12-16,18,395688.06,34276.19,16,5,4,2,542,Loyal Customers,Active,0.0
+CUST-0312,Saurabh Gupta,Consumer,Surat,Gujarat,West,2024-11-27,15,957951.72,78762.03,35,4,3,5,435,Loyal Customers,Warm,0.0
+CUST-0313,Ishaan Gupta 313,Consumer,New Delhi,Delhi,North,2024-08-10,13,245125.19,33535.58,144,1,2,1,121,Lost Customers,Churn Risk,245125.19
+CUST-0314,Kritika Kulkarni 314,Consumer,Vijayawada,Andhra Pradesh,South,2024-10-09,13,343970.67,22864.91,84,2,2,2,222,Lost Customers,Warm,0.0
+CUST-0315,Nandini Joshi,Consumer,Hyderabad,Telangana,South,2024-12-26,14,513548.79,37632.799999999996,6,5,2,3,523,Regular Customers,Active,0.0
+CUST-0316,Nandini Shaikh 316,Corporate,Jaipur,Rajasthan,West,2024-10-21,9,286081.12,26082.420000000002,72,3,1,1,311,Regular Customers,Warm,0.0
+CUST-0317,Ayaan Bansal,Consumer,Chandigarh,Chandigarh,North,2024-11-15,23,938952.92,44840.96,47,3,5,5,355,Loyal Customers,Warm,0.0
+CUST-0318,Myra Shaikh,Home Office,Mysuru,Karnataka,South,2024-05-16,11,334842.99,21360.61,230,1,1,2,112,Lost Customers,Likely Churned,334842.99
+CUST-0319,Amit Shaikh,Consumer,Jaipur,Rajasthan,West,2024-09-11,22,698400.3400000001,72765.91,112,2,5,4,254,At-Risk Customers,Churn Risk,698400.3400000001
+CUST-0320,Siddhesh Kadam,Consumer,Bengaluru,Karnataka,South,2024-12-29,22,926928.93,101977.08,3,5,5,5,555,VIP Customers,Active,0.0
+CUST-0321,Ishaan Kadam,Consumer,Agartala,Tripura,East,2024-05-12,11,107225.01,13210.11,234,1,1,1,111,Lost Customers,Likely Churned,107225.01
+CUST-0322,Sai Gupta,Consumer,Ranchi,Jharkhand,East,2024-11-05,15,509183.1,31543.98,57,3,3,3,333,Loyal Customers,Warm,0.0
+CUST-0323,Pranav Pandey,Corporate,New Delhi,Delhi,North,2024-12-08,17,531963.73,41358.0,24,4,4,3,443,Loyal Customers,Active,0.0
+CUST-0324,Kritika Kulkarni 324,Corporate,Mysuru,Karnataka,South,2024-12-09,13,213539.91,23509.22,23,4,2,1,421,Regular Customers,Active,0.0
+CUST-0325,Kunal Pillai,Home Office,Ranchi,Jharkhand,East,2024-12-25,20,546270.15,74393.34,7,5,5,3,553,Loyal Customers,Active,0.0
+CUST-0326,Vihaan Iyer,Consumer,Kochi,Kerala,South,2024-05-08,11,261051.31,23740.57,238,1,1,1,111,Lost Customers,Likely Churned,261051.31
+CUST-0327,Isha Joshi,Consumer,Chandigarh,Chandigarh,North,2024-11-10,14,293568.37,36765.4,52,3,2,1,321,Regular Customers,Warm,0.0
+CUST-0328,Sneha Mehta,Consumer,Jaipur,Rajasthan,West,2024-11-23,12,528340.18,84547.26,39,4,2,3,423,Regular Customers,Warm,0.0
+CUST-0329,Meera Pillai,Corporate,Panaji,Goa,West,2024-12-12,22,2207968.89,275406.66000000003,20,4,5,5,455,VIP Customers,Active,0.0
+CUST-0330,Isha Mehta 330,Home Office,Ranchi,Jharkhand,East,2024-10-22,19,906858.63,127566.11,71,3,5,5,355,Loyal Customers,Warm,0.0
+CUST-0331,Sakshi Machale,Corporate,Pune,Maharashtra,West,2024-09-05,14,816118.83,97610.51000000001,118,2,2,4,224,Lost Customers,Churn Risk,816118.83
+CUST-0332,Kavya Sharma,Consumer,Ludhiana,Punjab,North,2024-12-30,12,317267.15,28209.58,2,5,2,1,521,Regular Customers,Active,0.0
+CUST-0333,Rekha Malhotra,Consumer,Mysuru,Karnataka,South,2024-10-25,19,725246.13,67038.52,68,3,5,4,354,Loyal Customers,Warm,0.0
+CUST-0334,Diya Bansal,Corporate,Lucknow,Uttar Pradesh,North,2024-07-30,16,529584.53,32970.4,155,1,3,3,133,At-Risk Customers,Churn Risk,529584.53
+CUST-0335,Amit Gupta,Corporate,Lucknow,Uttar Pradesh,North,2024-10-19,17,718048.97,76602.96,74,3,4,4,344,Loyal Customers,Warm,0.0
+CUST-0336,Vivaan Gupta 336,Consumer,Chandigarh,Chandigarh,North,2024-11-03,8,218506.57,22954.33,59,3,1,1,311,Regular Customers,Warm,0.0
+CUST-0337,Yash Reddy,Consumer,Noida,Uttar Pradesh,North,2024-11-24,16,1139087.6,130766.95,38,4,3,5,435,Loyal Customers,Warm,0.0
+CUST-0338,Siddhesh Mishra,Home Office,Surat,Gujarat,West,2024-09-13,11,257624.5,31584.68,110,2,1,1,211,Lost Customers,Churn Risk,257624.5
+CUST-0339,Ishaan Yadav,Corporate,Nagpur,Maharashtra,West,2024-11-08,15,515106.02,34933.0,54,3,3,3,333,Loyal Customers,Warm,0.0
+CUST-0340,Kavya Ansari 340,Consumer,Ranchi,Jharkhand,East,2024-12-03,12,193361.41,13008.539999999999,29,4,2,1,421,Regular Customers,Active,0.0
+CUST-0341,Saurabh Shaikh,Consumer,Chennai,Tamil Nadu,South,2024-09-11,12,938245.77,80973.69,112,2,2,5,225,Lost Customers,Churn Risk,938245.77
+CUST-0342,Neha Verma,Consumer,Coimbatore,Tamil Nadu,South,2024-09-01,17,733248.88,70753.47,122,2,4,4,244,At-Risk Customers,Churn Risk,733248.88
+CUST-0343,Avni Kadam,Consumer,Raipur,Chhattisgarh,Central,2024-06-01,14,612727.21,79550.59,214,1,3,3,133,At-Risk Customers,Likely Churned,612727.21
+CUST-0344,Rekha Patel,Consumer,Dehradun,Uttarakhand,North,2024-12-25,21,625601.6,100328.13,7,5,5,3,553,Loyal Customers,Active,0.0
+CUST-0345,Nandini Patel 345,Consumer,Mumbai,Maharashtra,West,2024-11-17,19,775802.61,79459.56,45,4,5,4,454,VIP Customers,Warm,0.0
+CUST-0346,Saanvi Mishra,Corporate,New Delhi,Delhi,North,2024-12-03,8,261000.97,19272.41,29,4,1,1,411,Regular Customers,Active,0.0
+CUST-0347,Avni Reddy 347,Consumer,Panaji,Goa,West,2024-11-06,19,587257.15,69425.63,56,3,5,3,353,Loyal Customers,Warm,0.0
+CUST-0348,Omkar Yadav,Consumer,New Delhi,Delhi,North,2024-10-26,21,340526.74,39385.39,67,3,5,2,352,Loyal Customers,Warm,0.0
+CUST-0349,Myra Joshi,Consumer,Coimbatore,Tamil Nadu,South,2024-05-07,13,460209.86,62881.81,239,1,2,2,122,Lost Customers,Likely Churned,460209.86
+CUST-0350,Aditya Shaikh,Consumer,Pune,Maharashtra,West,2024-12-10,9,147712.36,12349.96,22,4,1,1,411,Regular Customers,Active,0.0
+CUST-0351,Arjun Bansal,Corporate,Vijayawada,Andhra Pradesh,South,2024-12-18,13,422034.06,61349.76,14,5,2,2,522,Regular Customers,Active,0.0
+CUST-0352,Isha Khan 352,Consumer,Patna,Bihar,East,2024-10-29,15,478263.83,58743.77,64,3,3,3,333,Loyal Customers,Warm,0.0
+CUST-0353,Amit Sharma 353,Consumer,Vijayawada,Andhra Pradesh,South,2024-12-16,12,650623.64,26453.95,16,5,2,4,524,Regular Customers,Active,0.0
+CUST-0354,Sakshi Ansari,Consumer,Puducherry,Puducherry,South,2024-12-20,11,574754.96,54501.34999999999,12,5,1,3,513,Regular Customers,Active,0.0
+CUST-0355,Reyansh Mehta 355,Corporate,Ranchi,Jharkhand,East,2024-09-11,12,631728.9,44201.97,112,2,2,3,223,Lost Customers,Churn Risk,631728.9
+CUST-0356,Priya Gupta,Home Office,Bhubaneswar,Odisha,East,2024-10-03,13,384610.77999999997,42239.56,90,2,2,2,222,Lost Customers,Warm,0.0
+CUST-0357,Rohan Mehta,Corporate,Mysuru,Karnataka,South,2024-11-18,15,1190479.9300000002,60372.15,44,4,3,5,435,Loyal Customers,Warm,0.0
+CUST-0358,Arjun Joshi,Consumer,Panaji,Goa,West,2023-12-12,12,352081.67,55278.7,386,1,2,2,122,Lost Customers,Likely Churned,352081.67
+CUST-0359,Aadhya Saxena,Consumer,Coimbatore,Tamil Nadu,South,2024-01-12,10,263666.48,35612.2,355,1,1,1,111,Lost Customers,Likely Churned,263666.48
+CUST-0360,Ishaan Mehta,Consumer,Jaipur,Rajasthan,West,2024-11-28,19,987348.4400000001,109437.76000000001,34,4,5,5,455,VIP Customers,Warm,0.0
+CUST-0361,Aadhya Yadav,Corporate,Lucknow,Uttar Pradesh,North,2024-10-26,10,174610.89,29216.53,67,3,1,1,311,Regular Customers,Warm,0.0
+CUST-0362,Arjun Yadav 362,Consumer,Raipur,Chhattisgarh,Central,2024-11-01,16,483592.42,46043.73,61,3,3,3,333,Loyal Customers,Warm,0.0
+CUST-0363,Isha Mishra,Corporate,Guwahati,Assam,East,2024-08-23,13,468312.35,23606.57,131,2,2,2,222,Lost Customers,Churn Risk,468312.35
+CUST-0364,Isha Chavan,Home Office,Vijayawada,Andhra Pradesh,South,2024-12-16,14,1307370.82,142223.71,16,5,3,5,535,Loyal Customers,Active,0.0
+CUST-0365,Siddhesh Singh,Consumer,Guwahati,Assam,East,2024-12-19,16,685233.48,77410.24,13,5,3,4,534,Loyal Customers,Active,0.0
+CUST-0366,Saurabh Chavan,Corporate,Kochi,Kerala,South,2024-11-30,13,267007.54,35001.899999999994,32,4,2,1,421,Regular Customers,Warm,0.0
+CUST-0367,Kritika Patel,Consumer,Coimbatore,Tamil Nadu,South,2024-09-22,16,574551.83,77119.96,101,2,3,3,233,At-Risk Customers,Churn Risk,574551.83
+CUST-0368,Rekha Ansari,Consumer,Guwahati,Assam,East,2024-08-14,19,615330.43,73305.68,140,1,5,3,153,At-Risk Customers,Churn Risk,615330.43
+CUST-0369,Pranav Agarwal,Consumer,Hyderabad,Telangana,South,2024-03-15,14,508721.3,77651.58,292,1,3,3,133,At-Risk Customers,Likely Churned,508721.3
+CUST-0370,Sai Machale,Consumer,Kolkata,West Bengal,East,2024-11-14,14,675248.35,44799.36,48,3,3,4,334,Loyal Customers,Warm,0.0
+CUST-0371,Meera Pandey,Consumer,Navi Mumbai,Maharashtra,West,2024-11-16,19,756699.4400000001,54077.47,46,4,5,4,454,VIP Customers,Warm,0.0
+CUST-0372,Isha Chavan 372,Consumer,Gurugram,Haryana,North,2024-03-13,15,1060701.11,95535.03,294,1,3,5,135,At-Risk Customers,Likely Churned,1060701.11
+CUST-0373,Sneha Joshi,Small Business,Lucknow,Uttar Pradesh,North,2024-08-06,14,490024.06,27868.15,148,1,3,3,133,At-Risk Customers,Churn Risk,490024.06
+CUST-0374,Saurabh Verma 374,Small Business,Mysuru,Karnataka,South,2024-08-10,11,766209.65,74679.09,144,1,1,4,114,Lost Customers,Churn Risk,766209.65
+CUST-0375,Sai Joshi,Consumer,Ludhiana,Punjab,North,2024-11-14,22,542555.79,77002.51000000001,48,3,5,3,353,Loyal Customers,Warm,0.0
+CUST-0376,Saurabh Ansari,Consumer,Noida,Uttar Pradesh,North,2024-12-17,10,318827.1,40620.479999999996,15,5,1,1,511,Regular Customers,Active,0.0
+CUST-0377,Avni Khan,Corporate,Patna,Bihar,East,2024-10-16,12,277631.96,30288.34,77,3,2,1,321,Regular Customers,Warm,0.0
+CUST-0378,Nandini Patel 378,Consumer,Mysuru,Karnataka,South,2024-04-27,16,483368.02999999997,50595.75,249,1,3,3,133,At-Risk Customers,Likely Churned,483368.02999999997
+CUST-0379,Reyansh Kulkarni,Consumer,Kolkata,West Bengal,East,2024-07-07,8,191405.74,12979.8,178,1,1,1,111,Lost Customers,Churn Risk,191405.74
+CUST-0380,Nandini Bansal,Consumer,Lucknow,Uttar Pradesh,North,2024-12-11,12,292530.66000000003,26438.06,21,4,2,1,421,Regular Customers,Active,0.0
+CUST-0381,Kritika Kadam 381,Home Office,Lucknow,Uttar Pradesh,North,2024-02-03,16,811678.77,75675.41,333,1,3,4,134,At-Risk Customers,Likely Churned,811678.77
+CUST-0382,Rekha Chavan,Consumer,Bhubaneswar,Odisha,East,2024-12-27,22,534738.14,82147.52,5,5,5,3,553,Loyal Customers,Active,0.0
+CUST-0383,Sai Iyer,Corporate,Kolkata,West Bengal,East,2024-06-03,16,722138.05,103346.22,212,1,4,4,144,At-Risk Customers,Likely Churned,722138.05
+CUST-0384,Rohan Agarwal,Corporate,New Delhi,Delhi,North,2024-12-01,17,551774.69,36756.95,31,4,4,3,443,Loyal Customers,Warm,0.0
+CUST-0385,Priya Gupta 385,Consumer,Ranchi,Jharkhand,East,2024-11-04,11,356930.52,45409.1,58,3,1,2,312,Regular Customers,Warm,0.0
+CUST-0386,Vivaan Pillai,Consumer,Kochi,Kerala,South,2024-10-27,20,1578566.5599999998,102646.4,66,3,5,5,355,Loyal Customers,Warm,0.0
+CUST-0387,Saanvi Reddy,Consumer,Raipur,Chhattisgarh,Central,2024-11-03,10,101050.28,5028.94,59,3,1,1,311,Regular Customers,Warm,0.0
+CUST-0388,Krishna Singh,Consumer,Ahmedabad,Gujarat,West,2024-11-09,14,604333.2999999999,7847.259999999999,53,3,3,3,333,Loyal Customers,Warm,0.0
+CUST-0389,Reyansh Joshi,Corporate,Navi Mumbai,Maharashtra,West,2024-12-28,15,538778.29,24755.14,4,5,3,3,533,Loyal Customers,Active,0.0
+CUST-0390,Sakshi Singh,Consumer,Kolkata,West Bengal,East,2024-12-12,22,596335.74,55451.93,20,4,5,3,453,Loyal Customers,Active,0.0
+CUST-0391,Diya Agarwal,Corporate,Noida,Uttar Pradesh,North,2024-12-04,16,1009956.52,95407.61,28,4,4,5,445,VIP Customers,Active,0.0
+CUST-0392,Aditya Shaikh 392,Corporate,Puducherry,Puducherry,South,2024-12-23,13,438565.14,68967.27,9,5,2,2,522,Regular Customers,Active,0.0
+CUST-0393,Ira Ansari,Corporate,Hyderabad,Telangana,South,2024-11-23,18,462961.2,39668.869999999995,39,4,4,2,442,Loyal Customers,Warm,0.0
+CUST-0394,Saurabh Mehta 394,Consumer,Shimla,Himachal Pradesh,North,2024-11-16,13,443396.89,-2171.0700000000006,46,4,2,2,422,Regular Customers,Warm,0.0
+CUST-0395,Sneha Saxena,Consumer,Gurugram,Haryana,North,2024-12-27,17,324245.62,24335.93,5,5,4,2,542,Loyal Customers,Active,0.0
+CUST-0396,Isha Ansari,Corporate,Gangtok,Sikkim,East,2024-12-27,13,685373.08,69703.34,5,5,2,4,524,Regular Customers,Active,0.0
+CUST-0397,Nikhil Joshi,Small Business,Patna,Bihar,East,2024-10-20,12,624804.1799999999,71826.46,73,3,2,3,323,Regular Customers,Warm,0.0
+CUST-0398,Aadhya Pandey,Home Office,New Delhi,Delhi,North,2024-08-04,20,606716.2,76298.86,150,1,5,3,153,At-Risk Customers,Churn Risk,606716.2
+CUST-0399,Vihaan Chavan,Home Office,Agartala,Tripura,East,2024-11-25,21,933465.4099999999,61624.5,37,4,5,5,455,VIP Customers,Warm,0.0
+CUST-0400,Meera Malhotra,Corporate,Jaipur,Rajasthan,West,2024-10-26,18,976425.5399999999,62803.46,67,3,4,5,345,Loyal Customers,Warm,0.0
+CUST-0401,Priya Bansal,Consumer,Panaji,Goa,West,2024-12-12,21,696165.66,25979.82,20,4,5,4,454,VIP Customers,Active,0.0
+CUST-0402,Ananya Nair,Home Office,Guwahati,Assam,East,2024-08-27,15,616477.03,73594.5,127,2,3,3,233,At-Risk Customers,Churn Risk,616477.03
+CUST-0403,Ishaan Agarwal,Consumer,Ranchi,Jharkhand,East,2024-11-27,9,160000.68,17152.35,35,4,1,1,411,Regular Customers,Warm,0.0
+CUST-0404,Myra Agarwal,Home Office,Guwahati,Assam,East,2024-11-21,13,206788.15,18343.87,41,4,2,1,421,Regular Customers,Warm,0.0
+CUST-0405,Vivaan Shaikh,Consumer,Nagpur,Maharashtra,West,2024-08-29,17,593683.88,63020.3,125,2,4,3,243,At-Risk Customers,Churn Risk,593683.88
+CUST-0406,Pranav Mehta,Small Business,Kolkata,West Bengal,East,2024-08-31,7,418170.42000000004,51674.27,123,2,1,2,212,Lost Customers,Churn Risk,418170.42000000004
+CUST-0407,Pranav Mehta 407,Consumer,Pune,Maharashtra,West,2024-11-07,18,510746.42,49818.600000000006,55,3,4,3,343,Loyal Customers,Warm,0.0
+CUST-0408,Reyansh Agarwal 408,Corporate,Mysuru,Karnataka,South,2024-12-13,19,813407.36,51288.58,19,5,5,4,554,VIP Customers,Active,0.0
+CUST-0409,Krishna Patel,Home Office,Hyderabad,Telangana,South,2024-09-03,16,445245.04,38472.33,120,2,4,2,242,At-Risk Customers,Churn Risk,445245.04
+CUST-0410,Sneha Bhosale,Corporate,New Delhi,Delhi,North,2024-08-15,15,923103.45,79599.17,139,1,3,5,135,At-Risk Customers,Churn Risk,923103.45
+CUST-0411,Sneha Ansari 411,Home Office,Mumbai,Maharashtra,West,2024-10-28,15,1614890.3,196054.44999999998,65,3,3,5,335,Loyal Customers,Warm,0.0
+CUST-0412,Vivaan Nair,Home Office,Chandigarh,Chandigarh,North,2024-11-23,22,665827.92,59937.85,39,4,5,4,454,VIP Customers,Warm,0.0
+CUST-0413,Meera Sawant,Consumer,Ranchi,Jharkhand,East,2024-11-30,20,581075.9299999999,24524.170000000002,32,4,5,3,453,Loyal Customers,Warm,0.0
+CUST-0414,Avni Mehta,Consumer,Kochi,Kerala,South,2024-07-12,10,712602.92,70966.65,173,1,1,4,114,Lost Customers,Churn Risk,712602.92
+CUST-0415,Ira Shaikh,Consumer,Gangtok,Sikkim,East,2024-08-02,18,478841.33999999997,39292.45,152,1,4,3,143,At-Risk Customers,Churn Risk,478841.33999999997
+CUST-0416,Pooja Machale,Corporate,Pune,Maharashtra,West,2024-08-18,7,785986.73,93628.5,136,2,1,4,214,Lost Customers,Churn Risk,785986.73
+CUST-0417,Isha Mehta 417,Consumer,Lucknow,Uttar Pradesh,North,2024-11-14,9,361379.56000000006,18013.29,48,3,1,2,312,Regular Customers,Warm,0.0
+CUST-0418,Aarav Machale,Consumer,Coimbatore,Tamil Nadu,South,2024-05-15,9,399664.04,39688.439999999995,231,1,1,2,112,Lost Customers,Likely Churned,399664.04
+CUST-0419,Kunal Yadav,Consumer,Surat,Gujarat,West,2024-12-23,25,828228.95,67744.31,9,5,5,4,554,VIP Customers,Active,0.0
+CUST-0420,Pranav Gupta,Consumer,Pune,Maharashtra,West,2024-10-14,24,570159.03,58418.64,79,2,5,3,253,At-Risk Customers,Warm,0.0
+CUST-0421,Sneha Patel,Small Business,Kolkata,West Bengal,East,2024-12-14,22,617614.4,85503.68000000001,18,5,5,3,553,Loyal Customers,Active,0.0
+CUST-0422,Anika Sawant,Consumer,Pune,Maharashtra,West,2024-11-16,17,395258.85000000003,46543.03,46,4,4,2,442,Loyal Customers,Warm,0.0
+CUST-0423,Arjun Pillai,Corporate,Shimla,Himachal Pradesh,North,2024-11-22,14,619343.0,79361.17,40,4,3,3,433,Loyal Customers,Warm,0.0
+CUST-0424,Reyansh Mishra 424,Consumer,Mysuru,Karnataka,South,2024-08-19,18,507972.35,70475.3,135,2,4,3,243,At-Risk Customers,Churn Risk,507972.35
+CUST-0425,Rahul Kulkarni,Home Office,Mysuru,Karnataka,South,2024-05-27,7,373940.17,41589.33,219,1,1,2,112,Lost Customers,Likely Churned,373940.17
+CUST-0426,Diya Agarwal 426,Small Business,Gangtok,Sikkim,East,2024-12-26,13,553141.9400000001,48175.65,6,5,2,3,523,Regular Customers,Active,0.0
+CUST-0427,Sneha Chavan,Home Office,Ludhiana,Punjab,North,2024-12-01,17,1092395.49,122961.79000000001,31,4,4,5,445,VIP Customers,Warm,0.0
+CUST-0428,Arjun Bhosale,Consumer,Gangtok,Sikkim,East,2024-12-16,19,555845.96,70836.08,16,5,5,3,553,Loyal Customers,Active,0.0
+CUST-0429,Aadhya Patel,Home Office,Gurugram,Haryana,North,2024-10-02,17,593679.32,81423.36,91,2,4,3,243,At-Risk Customers,Churn Risk,593679.32
+CUST-0430,Siddhesh Malhotra,Consumer,Kochi,Kerala,South,2024-10-16,17,646241.47,55271.64,77,3,4,4,344,Loyal Customers,Warm,0.0
+CUST-0431,Riya Deshmukh,Consumer,Bengaluru,Karnataka,South,2024-12-10,23,1108311.49,84382.31,22,4,5,5,455,VIP Customers,Active,0.0
+CUST-0432,Aadhya Iyer 432,Home Office,Coimbatore,Tamil Nadu,South,2024-10-16,14,668774.1,72718.15,77,3,3,4,334,Loyal Customers,Warm,0.0
+CUST-0433,Vihaan Bansal 433,Consumer,Mysuru,Karnataka,South,2024-09-15,17,451807.77,27766.5,108,2,4,2,242,At-Risk Customers,Churn Risk,451807.77
+CUST-0434,Pranav Shaikh,Corporate,Bhubaneswar,Odisha,East,2024-11-04,18,320140.82,34270.21,58,3,4,2,342,Loyal Customers,Warm,0.0
+CUST-0435,Nikhil Reddy,Consumer,Ludhiana,Punjab,North,2024-12-20,23,848085.2200000001,57108.04,12,5,5,4,554,VIP Customers,Active,0.0
+CUST-0436,Pooja Pillai,Home Office,Chennai,Tamil Nadu,South,2024-11-24,15,572484.2,64437.490000000005,38,4,3,3,433,Loyal Customers,Warm,0.0
+CUST-0437,Omkar Gupta,Corporate,Ranchi,Jharkhand,East,2024-10-25,18,860533.0,80493.39,68,3,4,4,344,Loyal Customers,Warm,0.0
+CUST-0438,Diya Kulkarni,Consumer,Hyderabad,Telangana,South,2024-12-24,14,852492.13,60845.19,8,5,3,4,534,Loyal Customers,Active,0.0
+CUST-0439,Sai Reddy,Consumer,Hyderabad,Telangana,South,2024-04-23,10,292533.65,24952.98,253,1,1,1,111,Lost Customers,Likely Churned,292533.65
+CUST-0440,Nandini Bhosale 440,Consumer,Ranchi,Jharkhand,East,2024-12-03,18,662040.45,64019.64,29,4,4,4,444,VIP Customers,Active,0.0
+CUST-0441,Saurabh Pillai,Consumer,Guwahati,Assam,East,2024-12-13,18,390082.26,27936.989999999998,19,5,4,2,542,Loyal Customers,Active,0.0
+CUST-0442,Rahul Machale,Consumer,Ranchi,Jharkhand,East,2024-09-19,17,559370.3,32161.94,104,2,4,3,243,At-Risk Customers,Churn Risk,559370.3
+CUST-0443,Vihaan Gupta 443,Consumer,Bhubaneswar,Odisha,East,2024-10-30,12,760504.29,115944.16,63,3,2,4,324,Regular Customers,Warm,0.0
+CUST-0444,Ananya Sharma,Home Office,Lucknow,Uttar Pradesh,North,2024-11-21,19,693101.53,47035.93,41,4,5,4,454,VIP Customers,Warm,0.0
+CUST-0445,Saurabh Patel,Consumer,New Delhi,Delhi,North,2024-11-04,13,529066.2,60430.72,58,3,2,3,323,Regular Customers,Warm,0.0
+CUST-0446,Pranav Pillai,Small Business,Kolkata,West Bengal,East,2024-09-12,11,209944.27,29452.31,111,2,1,1,211,Lost Customers,Churn Risk,209944.27
+CUST-0447,Aditya Machale,Corporate,Lucknow,Uttar Pradesh,North,2024-12-28,16,551742.33,60962.43,4,5,4,3,543,Loyal Customers,Active,0.0
+CUST-0448,Pranav Pillai 448,Corporate,Guwahati,Assam,East,2024-09-22,15,867376.97,115950.92000000001,101,2,3,5,235,At-Risk Customers,Churn Risk,867376.97
+CUST-0449,Isha Singh,Consumer,Puducherry,Puducherry,South,2024-09-04,9,190842.0,16986.69,119,2,1,1,211,Lost Customers,Churn Risk,190842.0
+CUST-0450,Kavya Mehta,Consumer,Panaji,Goa,West,2024-12-27,12,362713.88,27294.57,5,5,2,2,522,Regular Customers,Active,0.0
+CUST-0451,Diya Deshmukh 451,Home Office,Kolkata,West Bengal,East,2024-12-18,21,775225.66,62235.3,14,5,5,4,554,VIP Customers,Active,0.0
+CUST-0452,Ayaan Nair,Corporate,Bengaluru,Karnataka,South,2024-04-24,8,195944.74,28762.53,252,1,1,1,111,Lost Customers,Likely Churned,195944.74
+CUST-0453,Saanvi Machale,Corporate,Hyderabad,Telangana,South,2024-08-20,14,682152.6900000001,66590.45,134,2,3,4,234,At-Risk Customers,Churn Risk,682152.6900000001
+CUST-0454,Pooja Jain 454,Consumer,Panaji,Goa,West,2024-10-17,13,200610.94,16372.1,76,3,2,1,321,Regular Customers,Warm,0.0
+CUST-0455,Arjun Ansari,Home Office,Ludhiana,Punjab,North,2024-09-10,14,882867.72,60485.619999999995,113,2,3,5,235,At-Risk Customers,Churn Risk,882867.72
+CUST-0456,Saurabh Gupta 456,Corporate,Vijayawada,Andhra Pradesh,South,2024-10-25,14,355598.21,46027.11,68,3,3,2,332,Loyal Customers,Warm,0.0
+CUST-0457,Arjun Kulkarni,Home Office,Hyderabad,Telangana,South,2024-08-20,12,569624.15,58959.23,134,2,2,3,223,Lost Customers,Churn Risk,569624.15
+CUST-0458,Ananya Bhosale 458,Corporate,Ludhiana,Punjab,North,2024-08-23,13,531055.91,65419.200000000004,131,2,2,3,223,Lost Customers,Churn Risk,531055.91
+CUST-0459,Neha Mehta,Small Business,Panaji,Goa,West,2024-12-28,20,1038710.97,110917.06,4,5,5,5,555,VIP Customers,Active,0.0
+CUST-0460,Krishna Mehta 460,Consumer,Raipur,Chhattisgarh,Central,2024-09-11,19,465054.72000000003,52829.200000000004,112,2,5,2,252,At-Risk Customers,Churn Risk,465054.72000000003
+CUST-0461,Meera Patil,Consumer,Puducherry,Puducherry,South,2024-12-04,14,406265.88,41293.76,28,4,3,2,432,Loyal Customers,Active,0.0
+CUST-0462,Meera Singh 462,Consumer,Surat,Gujarat,West,2024-11-03,12,293960.68,29807.73,59,3,2,1,321,Regular Customers,Warm,0.0
+CUST-0463,Amit Bhosale,Consumer,Agartala,Tripura,East,2024-11-30,10,265104.23,19696.9,32,4,1,1,411,Regular Customers,Warm,0.0
+CUST-0464,Kunal Agarwal,Consumer,Ahmedabad,Gujarat,West,2024-03-30,17,1080390.94,125599.07,277,1,4,5,145,At-Risk Customers,Likely Churned,1080390.94
+CUST-0465,Siddhesh Chavan,Consumer,Ahmedabad,Gujarat,West,2024-10-19,26,835496.72,69813.89,74,3,5,4,354,Loyal Customers,Warm,0.0
+CUST-0466,Priya Pillai 466,Home Office,New Delhi,Delhi,North,2024-11-11,16,522396.52,64012.48,51,3,4,3,343,Loyal Customers,Warm,0.0
+CUST-0467,Meera Chavan,Corporate,Ludhiana,Punjab,North,2024-11-06,20,986608.8099999999,116448.52,56,3,5,5,355,Loyal Customers,Warm,0.0
+CUST-0468,Krishna Shaikh,Home Office,Nagpur,Maharashtra,West,2023-10-26,12,174657.67,17104.100000000002,433,1,2,1,121,Lost Customers,Likely Churned,174657.67
+CUST-0469,Priya Singh,Consumer,Kochi,Kerala,South,2024-04-08,17,769413.61,66826.2,268,1,4,4,144,At-Risk Customers,Likely Churned,769413.61
+CUST-0470,Siddhesh Malhotra 470,Consumer,Dehradun,Uttarakhand,North,2024-06-03,14,292070.99,21112.41,212,1,3,1,131,At-Risk Customers,Likely Churned,292070.99
+CUST-0471,Priya Saxena,Home Office,Hyderabad,Telangana,South,2024-12-07,12,582730.4400000001,68061.05,25,4,2,3,423,Regular Customers,Active,0.0
+CUST-0472,Anika Jain,Consumer,Chennai,Tamil Nadu,South,2024-12-31,19,748132.6,66909.31,1,5,5,4,554,VIP Customers,Active,0.0
+CUST-0473,Rekha Machale 473,Consumer,Surat,Gujarat,West,2024-03-04,10,650506.36,36379.2,303,1,1,4,114,Lost Customers,Likely Churned,650506.36
+CUST-0474,Ananya Patil,Consumer,Lucknow,Uttar Pradesh,North,2024-12-24,9,182839.28999999998,14880.220000000001,8,5,1,1,511,Regular Customers,Active,0.0
+CUST-0475,Sakshi Sawant,Home Office,Mysuru,Karnataka,South,2024-10-06,16,379461.72000000003,40961.229999999996,87,2,4,2,242,At-Risk Customers,Warm,0.0
+CUST-0476,Isha Patel,Consumer,Pune,Maharashtra,West,2024-07-05,13,183740.15,17267.59,180,1,2,1,121,Lost Customers,Churn Risk,183740.15
+CUST-0477,Isha Nair,Corporate,Chandigarh,Chandigarh,North,2024-11-26,22,966047.49,52548.41,36,4,5,5,455,VIP Customers,Warm,0.0
+CUST-0478,Kunal Machale 478,Consumer,Pune,Maharashtra,West,2024-11-13,9,307432.72,29536.32,49,3,1,1,311,Regular Customers,Warm,0.0
+CUST-0479,Riya Iyer,Consumer,Kochi,Kerala,South,2024-12-18,20,637230.66,32064.750000000004,14,5,5,3,553,Loyal Customers,Active,0.0
+CUST-0480,Amit Iyer,Consumer,Gangtok,Sikkim,East,2024-06-13,18,462949.64,57589.75,202,1,4,2,142,At-Risk Customers,Likely Churned,462949.64
+CUST-0481,Vihaan Yadav,Consumer,Guwahati,Assam,East,2024-11-01,13,258368.84,30888.55,61,3,2,1,321,Regular Customers,Warm,0.0
+CUST-0482,Yash Jain,Corporate,Mysuru,Karnataka,South,2024-12-10,18,965928.86,76477.56,22,4,4,5,445,VIP Customers,Active,0.0
+CUST-0483,Siddhesh Bansal 483,Corporate,Vijayawada,Andhra Pradesh,South,2024-11-21,15,685377.67,66377.81,41,4,3,4,434,Loyal Customers,Warm,0.0
+CUST-0484,Rahul Khan,Corporate,New Delhi,Delhi,North,2024-10-28,18,352027.58,41995.46,65,3,4,2,342,Loyal Customers,Warm,0.0
+CUST-0485,Neha Kulkarni,Consumer,Jaipur,Rajasthan,West,2024-12-16,21,999785.73,120182.19,16,5,5,5,555,VIP Customers,Active,0.0
+CUST-0486,Yash Verma,Consumer,Chennai,Tamil Nadu,South,2024-10-24,8,579898.2,41733.36,69,3,1,3,313,Regular Customers,Warm,0.0
+CUST-0487,Ishaan Verma,Consumer,Nagpur,Maharashtra,West,2024-10-09,20,622569.13,73445.96,84,2,5,3,253,At-Risk Customers,Warm,0.0
+CUST-0488,Nikhil Bansal 488,Consumer,Patna,Bihar,East,2024-08-06,6,157554.86,10944.89,148,1,1,1,111,Lost Customers,Churn Risk,157554.86
+CUST-0489,Ananya Agarwal,Small Business,Vijayawada,Andhra Pradesh,South,2024-12-23,13,805328.2,85601.56,9,5,2,4,524,Regular Customers,Active,0.0
+CUST-0490,Siddhesh Jain 490,Consumer,Noida,Uttar Pradesh,North,2024-09-18,11,275776.72000000003,21134.93,105,2,1,1,211,Lost Customers,Churn Risk,275776.72000000003
+CUST-0491,Neha Ansari,Home Office,Raipur,Chhattisgarh,Central,2024-11-26,14,172736.33,21778.42,36,4,3,1,431,Loyal Customers,Warm,0.0
+CUST-0492,Pooja Sharma 492,Small Business,Surat,Gujarat,West,2024-08-16,15,829235.22,61303.19,138,2,3,4,234,At-Risk Customers,Churn Risk,829235.22
+CUST-0493,Neha Ansari 493,Consumer,Shimla,Himachal Pradesh,North,2024-09-19,18,1046250.9099999999,63891.950000000004,104,2,4,5,245,At-Risk Customers,Churn Risk,1046250.9099999999
+CUST-0494,Rahul Patel,Consumer,Nagpur,Maharashtra,West,2024-11-12,25,1075799.1,111116.34,50,3,5,5,355,Loyal Customers,Warm,0.0
+CUST-0495,Nandini Saxena,Consumer,Agartala,Tripura,East,2024-12-11,23,749054.21,36313.3,21,4,5,4,454,VIP Customers,Active,0.0
+CUST-0496,Aarav Bansal,Consumer,Jaipur,Rajasthan,West,2024-11-27,15,406384.13,15859.41,35,4,3,2,432,Loyal Customers,Warm,0.0
+CUST-0497,Anika Sawant 497,Corporate,Puducherry,Puducherry,South,2024-12-18,15,987425.16,110646.3,14,5,3,5,535,Loyal Customers,Active,0.0
+CUST-0498,Pranav Patel,Consumer,Bhubaneswar,Odisha,East,2024-10-26,10,101614.11,14455.14,67,3,1,1,311,Regular Customers,Warm,0.0
+CUST-0499,Meera Jain 499,Corporate,Puducherry,Puducherry,South,2024-10-28,10,528205.8099999999,67015.1,65,3,1,3,313,Regular Customers,Warm,0.0
+CUST-0500,Arjun Khan 500,Corporate,Guwahati,Assam,East,2023-09-22,12,245722.16,29046.94,467,1,2,1,121,Lost Customers,Likely Churned,245722.16
+CUST-0501,Kavya Agarwal 501,Consumer,Panaji,Goa,West,2024-10-17,22,1265157.6600000001,111200.19,76,3,5,5,355,Loyal Customers,Warm,0.0
+CUST-0502,Reyansh Khan 502,Corporate,Puducherry,Puducherry,South,2024-09-18,16,1367402.9,169052.56,105,2,4,5,245,At-Risk Customers,Churn Risk,1367402.9
+CUST-0503,Rohan Kulkarni,Corporate,Puducherry,Puducherry,South,2024-12-07,15,488780.41,61135.93,25,4,3,3,433,Loyal Customers,Active,0.0
+CUST-0504,Aadhya Machale 504,Consumer,Bhubaneswar,Odisha,East,2024-12-11,16,521601.80000000005,52496.74,21,4,4,3,443,Loyal Customers,Active,0.0
+CUST-0505,Aditya Patel,Corporate,New Delhi,Delhi,North,2024-10-09,19,1112613.89,109321.92,84,2,5,5,255,At-Risk Customers,Warm,0.0
+CUST-0506,Sneha Joshi 506,Consumer,Gangtok,Sikkim,East,2024-12-19,14,708484.07,76468.03,13,5,3,4,534,Loyal Customers,Active,0.0
+CUST-0507,Neha Singh,Small Business,Vijayawada,Andhra Pradesh,South,2024-12-08,21,1396498.39,127937.09,24,4,5,5,455,VIP Customers,Active,0.0
+CUST-0508,Siddhesh Yadav,Small Business,Bhubaneswar,Odisha,East,2024-11-01,18,802325.82,70080.88,61,3,4,4,344,Loyal Customers,Warm,0.0
+CUST-0509,Rekha Patil 509,Consumer,Mysuru,Karnataka,South,2024-12-05,18,760687.48,102591.12,27,4,4,4,444,VIP Customers,Active,0.0
+CUST-0510,Neha Kulkarni 510,Corporate,Raipur,Chhattisgarh,Central,2024-10-04,14,593303.21,57802.65,89,2,3,3,233,At-Risk Customers,Warm,0.0
+CUST-0511,Rekha Deshmukh 511,Consumer,Pune,Maharashtra,West,2024-10-15,10,477638.99,58785.45,78,3,1,3,313,Regular Customers,Warm,0.0
+CUST-0512,Ayaan Shaikh,Corporate,Kochi,Kerala,South,2023-08-10,9,469395.09,33128.53,510,1,1,2,112,Lost Customers,Likely Churned,469395.09
+CUST-0513,Vivaan Machale,Consumer,Agartala,Tripura,East,2024-12-05,21,927881.79,91511.95,27,4,5,5,455,VIP Customers,Active,0.0
+CUST-0514,Kritika Patil,Corporate,Dehradun,Uttarakhand,North,2024-11-22,10,94558.94,10762.44,40,4,1,1,411,Regular Customers,Warm,0.0
+CUST-0515,Kritika Deshmukh 515,Consumer,Noida,Uttar Pradesh,North,2024-11-29,18,342086.83,34460.340000000004,33,4,4,2,442,Loyal Customers,Warm,0.0
+CUST-0516,Sakshi Mishra,Consumer,Kolkata,West Bengal,East,2024-12-27,18,581946.01,55578.03,5,5,4,3,543,Loyal Customers,Active,0.0
+CUST-0517,Ira Patel,Consumer,Panaji,Goa,West,2024-09-23,20,687757.11,63811.99,100,2,5,4,254,At-Risk Customers,Churn Risk,687757.11
+CUST-0518,Saurabh Reddy 518,Consumer,Patna,Bihar,East,2024-06-13,15,175535.55000000002,21657.670000000002,202,1,3,1,131,At-Risk Customers,Likely Churned,175535.55000000002
+CUST-0519,Saanvi Shaikh 519,Home Office,Agartala,Tripura,East,2024-07-15,13,413168.35000000003,46034.49,170,1,2,2,122,Lost Customers,Churn Risk,413168.35000000003
+CUST-0520,Vihaan Bhosale,Consumer,New Delhi,Delhi,North,2024-08-13,14,205565.02,19129.620000000003,141,1,3,1,131,At-Risk Customers,Churn Risk,205565.02
+CUST-0521,Meera Reddy,Consumer,Agartala,Tripura,East,2024-08-27,14,356991.69,28431.1,127,2,3,2,232,At-Risk Customers,Churn Risk,356991.69
+CUST-0522,Siddhesh Yadav 522,Home Office,Gangtok,Sikkim,East,2024-11-11,16,706223.34,76220.91,51,3,4,4,344,Loyal Customers,Warm,0.0
+CUST-0523,Rohan Kulkarni 523,Corporate,Coimbatore,Tamil Nadu,South,2024-10-31,22,1257139.66,121157.29,62,3,5,5,355,Loyal Customers,Warm,0.0
+CUST-0524,Anika Machale,Consumer,Agartala,Tripura,East,2024-10-05,8,179689.94,14595.55,88,2,1,1,211,Lost Customers,Warm,0.0
+CUST-0525,Ira Nair 525,Consumer,Kochi,Kerala,South,2024-10-23,18,543610.52,58212.72,70,3,4,3,343,Loyal Customers,Warm,0.0
+CUST-0526,Rekha Mishra,Corporate,Hyderabad,Telangana,South,2024-10-23,14,1043796.8699999999,119603.83,70,3,3,5,335,Loyal Customers,Warm,0.0
+CUST-0527,Pooja Reddy,Consumer,Agartala,Tripura,East,2024-12-27,19,1117926.1,150095.89,5,5,5,5,555,VIP Customers,Active,0.0
+CUST-0528,Kavya Iyer,Corporate,Panaji,Goa,West,2024-10-18,17,617233.15,65904.29,75,3,4,3,343,Loyal Customers,Warm,0.0
+CUST-0529,Riya Khan,Home Office,Bhubaneswar,Odisha,East,2024-09-17,9,287955.52,30663.25,106,2,1,1,211,Lost Customers,Churn Risk,287955.52
+CUST-0530,Ishaan Iyer,Consumer,Navi Mumbai,Maharashtra,West,2024-12-17,10,385837.85,42848.18,15,5,1,2,512,Regular Customers,Active,0.0
+CUST-0531,Sai Pillai,Corporate,Guwahati,Assam,East,2024-03-15,11,509962.6,44678.96,292,1,1,3,113,Lost Customers,Likely Churned,509962.6
+CUST-0532,Sneha Jain,Home Office,Gurugram,Haryana,North,2024-12-23,13,395004.27,41479.990000000005,9,5,2,2,522,Regular Customers,Active,0.0
+CUST-0533,Kavya Malhotra,Consumer,Chennai,Tamil Nadu,South,2024-12-25,16,491077.38,20996.559999999998,7,5,4,3,543,Loyal Customers,Active,0.0
+CUST-0534,Sakshi Sawant 534,Consumer,Shimla,Himachal Pradesh,North,2024-08-25,15,463798.3,26142.53,129,2,3,2,232,At-Risk Customers,Churn Risk,463798.3
+CUST-0535,Priya Mehta,Consumer,Dehradun,Uttarakhand,North,2024-12-07,21,494341.72,29813.2,25,4,5,3,453,Loyal Customers,Active,0.0
+CUST-0536,Kunal Reddy 536,Consumer,Agartala,Tripura,East,2024-08-17,16,635010.84,46397.61,137,2,4,3,243,At-Risk Customers,Churn Risk,635010.84
+CUST-0537,Krishna Sharma,Consumer,Noida,Uttar Pradesh,North,2024-05-02,14,410208.57,50570.549999999996,244,1,3,2,132,At-Risk Customers,Likely Churned,410208.57
+CUST-0538,Sneha Deshmukh 538,Corporate,Gurugram,Haryana,North,2024-09-29,20,1130039.69,50066.18,94,2,5,5,255,At-Risk Customers,Churn Risk,1130039.69
+CUST-0539,Avni Reddy 539,Corporate,Hyderabad,Telangana,South,2024-10-20,12,872783.12,87510.2,73,3,2,5,325,Regular Customers,Warm,0.0
+CUST-0540,Sai Chavan,Consumer,Dehradun,Uttarakhand,North,2024-11-21,11,180271.35,20512.12,41,4,1,1,411,Regular Customers,Warm,0.0
+CUST-0541,Aditya Malhotra,Consumer,Ludhiana,Punjab,North,2024-10-13,19,609172.5,42644.36,80,2,5,3,253,At-Risk Customers,Warm,0.0
+CUST-0542,Diya Malhotra,Small Business,Navi Mumbai,Maharashtra,West,2024-11-07,11,372268.13,29339.88,55,3,1,2,312,Regular Customers,Warm,0.0
+CUST-0543,Amit Pandey,Consumer,Raipur,Chhattisgarh,Central,2024-12-24,16,334884.13,38466.14,8,5,4,2,542,Loyal Customers,Active,0.0
+CUST-0544,Avni Saxena,Consumer,Navi Mumbai,Maharashtra,West,2024-12-08,20,783322.74,108654.93999999999,24,4,5,4,454,VIP Customers,Active,0.0
+CUST-0545,Isha Machale,Small Business,Jaipur,Rajasthan,West,2024-12-31,17,1216613.42,131360.53,1,5,4,5,545,VIP Customers,Active,0.0
+CUST-0546,Rohan Iyer,Small Business,Gangtok,Sikkim,East,2024-12-31,23,658938.9400000001,60707.0,1,5,5,4,554,VIP Customers,Active,0.0
+CUST-0547,Riya Joshi,Home Office,Raipur,Chhattisgarh,Central,2024-07-02,17,433279.58999999997,46193.52,183,1,4,2,142,At-Risk Customers,Likely Churned,433279.58999999997
+CUST-0548,Krishna Bansal,Consumer,Gangtok,Sikkim,East,2024-11-01,20,741559.14,8492.699999999999,61,3,5,4,354,Loyal Customers,Warm,0.0
+CUST-0549,Ayaan Reddy,Corporate,Noida,Uttar Pradesh,North,2024-08-11,16,1004865.5700000001,60578.06999999999,143,1,4,5,145,At-Risk Customers,Churn Risk,1004865.5700000001
+CUST-0550,Anika Bhosale,Consumer,Ludhiana,Punjab,North,2024-01-20,13,411215.45,65711.71,347,1,2,2,122,Lost Customers,Likely Churned,411215.45
+CUST-0551,Rohan Pandey 551,Corporate,Hyderabad,Telangana,South,2024-08-26,14,667478.67,53945.18,128,2,3,4,234,At-Risk Customers,Churn Risk,667478.67
+CUST-0552,Aadhya Yadav 552,Home Office,Bhubaneswar,Odisha,East,2024-11-25,18,982006.15,111155.9,37,4,4,5,445,VIP Customers,Warm,0.0
+CUST-0553,Neha Reddy,Consumer,Surat,Gujarat,West,2024-09-28,13,487069.26,39576.58,95,2,2,3,223,Lost Customers,Churn Risk,487069.26
+CUST-0554,Reyansh Yadav,Consumer,New Delhi,Delhi,North,2024-12-08,15,633833.1000000001,72759.43,24,4,3,3,433,Loyal Customers,Active,0.0
+CUST-0555,Ira Sharma,Consumer,Bengaluru,Karnataka,South,2024-07-18,15,185320.25,22723.480000000003,167,1,3,1,131,At-Risk Customers,Churn Risk,185320.25
+CUST-0556,Saurabh Mishra,Small Business,Chennai,Tamil Nadu,South,2024-08-13,18,917042.69,111628.7,141,1,4,5,145,At-Risk Customers,Churn Risk,917042.69
+CUST-0557,Rekha Patil 557,Consumer,Mumbai,Maharashtra,West,2024-10-04,12,534002.0,27187.489999999998,89,2,2,3,223,Lost Customers,Warm,0.0
+CUST-0558,Pranav Bhosale,Consumer,Shimla,Himachal Pradesh,North,2024-10-01,16,524869.62,39075.7,92,2,4,3,243,At-Risk Customers,Churn Risk,524869.62
+CUST-0559,Ayaan Ansari 559,Consumer,Kochi,Kerala,South,2024-11-02,15,481893.13,61562.17,60,3,3,3,333,Loyal Customers,Warm,0.0
+CUST-0560,Neha Malhotra,Corporate,Kochi,Kerala,South,2024-11-09,11,457310.84,32780.700000000004,53,3,1,2,312,Regular Customers,Warm,0.0
+CUST-0561,Avni Pillai 561,Consumer,Dehradun,Uttarakhand,North,2024-12-28,17,560901.73,53701.67,4,5,4,3,543,Loyal Customers,Active,0.0
+CUST-0562,Krishna Deshmukh,Consumer,Lucknow,Uttar Pradesh,North,2024-12-23,16,728566.98,59723.86,9,5,4,4,544,VIP Customers,Active,0.0
+CUST-0563,Nandini Pillai,Corporate,Patna,Bihar,East,2024-01-05,10,233455.53,23736.35,362,1,1,1,111,Lost Customers,Likely Churned,233455.53
+CUST-0564,Sneha Mishra,Corporate,Chandigarh,Chandigarh,North,2024-10-24,17,501136.67,52591.1,69,3,4,3,343,Loyal Customers,Warm,0.0
+CUST-0565,Nandini Bansal 565,Consumer,Surat,Gujarat,West,2024-11-24,17,256265.49,25822.52,38,4,4,1,441,Loyal Customers,Warm,0.0
+CUST-0566,Priya Bhosale,Consumer,Puducherry,Puducherry,South,2024-12-21,16,833304.5,99663.7,11,5,4,4,544,VIP Customers,Active,0.0
+CUST-0567,Isha Verma 567,Home Office,Nagpur,Maharashtra,West,2024-11-26,22,1087958.36,113365.29000000001,36,4,5,5,455,VIP Customers,Warm,0.0
+CUST-0568,Neha Jain,Consumer,Lucknow,Uttar Pradesh,North,2024-05-04,14,258273.62000000002,33969.68,242,1,3,1,131,At-Risk Customers,Likely Churned,258273.62000000002
+CUST-0569,Priya Ansari 569,Corporate,Panaji,Goa,West,2024-09-02,19,1409507.54,130559.38,121,2,5,5,255,At-Risk Customers,Churn Risk,1409507.54
+CUST-0570,Kritika Deshmukh 570,Home Office,Surat,Gujarat,West,2024-11-07,11,837371.51,83283.64,55,3,1,4,314,Regular Customers,Warm,0.0
+CUST-0571,Saurabh Pandey,Consumer,Nagpur,Maharashtra,West,2024-12-27,20,644102.11,58135.950000000004,5,5,5,4,554,VIP Customers,Active,0.0
+CUST-0572,Neha Shaikh,Corporate,Gangtok,Sikkim,East,2024-12-22,22,677224.39,72842.8,10,5,5,4,554,VIP Customers,Active,0.0
+CUST-0573,Meera Ansari 573,Corporate,Kochi,Kerala,South,2024-08-24,9,384736.92,30900.739999999998,130,2,1,2,212,Lost Customers,Churn Risk,384736.92
+CUST-0574,Amit Nair 574,Corporate,Mumbai,Maharashtra,West,2024-11-13,21,1136783.0899999999,130803.04,49,3,5,5,355,Loyal Customers,Warm,0.0
+CUST-0575,Kritika Gupta,Consumer,Navi Mumbai,Maharashtra,West,2024-07-04,12,647817.77,49103.87,181,1,2,4,124,Lost Customers,Likely Churned,647817.77
+CUST-0576,Arjun Kulkarni 576,Small Business,Nagpur,Maharashtra,West,2024-08-16,16,696109.28,-19799.590000000004,138,2,4,4,244,At-Risk Customers,Churn Risk,696109.28
+CUST-0577,Arjun Malhotra,Consumer,Agartala,Tripura,East,2023-12-15,19,364427.55,34087.270000000004,383,1,5,2,152,At-Risk Customers,Likely Churned,364427.55
+CUST-0578,Kunal Yadav 578,Corporate,New Delhi,Delhi,North,2024-08-22,9,337565.35,33831.19,132,2,1,2,212,Lost Customers,Churn Risk,337565.35
+CUST-0579,Kunal Pillai 579,Consumer,Kolkata,West Bengal,East,2024-12-13,9,235438.28999999998,17133.56,19,5,1,1,511,Regular Customers,Active,0.0
+CUST-0580,Nikhil Khan 580,Corporate,Surat,Gujarat,West,2024-12-10,18,869762.89,56783.86,22,4,4,5,445,VIP Customers,Active,0.0
+CUST-0581,Riya Singh 581,Consumer,Coimbatore,Tamil Nadu,South,2024-09-25,10,168910.66,11846.85,98,2,1,1,211,Lost Customers,Churn Risk,168910.66
+CUST-0582,Riya Khan 582,Corporate,New Delhi,Delhi,North,2024-12-07,14,664397.2999999999,57979.3,25,4,3,4,434,Loyal Customers,Active,0.0
+CUST-0583,Myra Agarwal 583,Corporate,Mumbai,Maharashtra,West,2024-06-28,12,454154.14999999997,41381.24,187,1,2,2,122,Lost Customers,Likely Churned,454154.14999999997
+CUST-0584,Rekha Ansari 584,Consumer,Ranchi,Jharkhand,East,2024-12-13,14,347055.39,13444.170000000002,19,5,3,2,532,Loyal Customers,Active,0.0
+CUST-0585,Myra Mehta 585,Consumer,Gangtok,Sikkim,East,2024-06-25,17,475232.54000000004,35739.43,190,1,4,2,142,At-Risk Customers,Likely Churned,475232.54000000004
+CUST-0586,Kavya Jain 586,Consumer,Panaji,Goa,West,2024-11-08,13,475385.19999999995,34233.92,54,3,2,2,322,Regular Customers,Warm,0.0
+CUST-0587,Kunal Machale 587,Consumer,Pune,Maharashtra,West,2024-10-10,21,878839.85,95027.2,83,2,5,5,255,At-Risk Customers,Warm,0.0
+CUST-0588,Arjun Verma,Consumer,Navi Mumbai,Maharashtra,West,2024-12-24,14,540735.99,43606.4,8,5,3,3,533,Loyal Customers,Active,0.0
+CUST-0589,Vihaan Mehta 589,Consumer,Navi Mumbai,Maharashtra,West,2024-12-03,15,802142.3099999999,96218.46999999999,29,4,3,4,434,Loyal Customers,Active,0.0
+CUST-0590,Myra Kulkarni,Corporate,Chandigarh,Chandigarh,North,2024-11-21,16,570408.4400000001,42763.44,41,4,4,3,443,Loyal Customers,Warm,0.0
+CUST-0591,Vihaan Singh 591,Consumer,Hyderabad,Telangana,South,2024-09-16,16,572673.64,68668.23,107,2,4,3,243,At-Risk Customers,Churn Risk,572673.64
+CUST-0592,Isha Reddy,Consumer,Vijayawada,Andhra Pradesh,South,2024-10-30,13,209958.37,19256.28,63,3,2,1,321,Regular Customers,Warm,0.0
+CUST-0593,Ishaan Kadam 593,Consumer,Dehradun,Uttarakhand,North,2024-11-13,11,249148.97,21099.41,49,3,1,1,311,Regular Customers,Warm,0.0
+CUST-0594,Kavya Patel 594,Corporate,Ludhiana,Punjab,North,2024-12-05,18,744671.89,53590.37,27,4,4,4,444,VIP Customers,Active,0.0
+CUST-0595,Omkar Kulkarni 595,Consumer,Raipur,Chhattisgarh,Central,2024-08-09,18,544384.71,20875.28,145,1,4,3,143,At-Risk Customers,Churn Risk,544384.71
+CUST-0596,Rahul Chavan,Corporate,Kolkata,West Bengal,East,2024-06-27,11,501679.37,70760.74,188,1,1,3,113,Lost Customers,Likely Churned,501679.37
+CUST-0597,Siddhesh Bhosale,Consumer,Patna,Bihar,East,2024-10-05,15,433882.27,43099.94,88,2,3,2,232,At-Risk Customers,Warm,0.0
+CUST-0598,Rekha Khan 598,Corporate,Ludhiana,Punjab,North,2024-05-21,6,245756.9,31496.9,225,1,1,1,111,Lost Customers,Likely Churned,245756.9
+CUST-0599,Sneha Mehta 599,Consumer,Dehradun,Uttarakhand,North,2024-12-02,15,361823.3,28848.71,30,4,3,2,432,Loyal Customers,Active,0.0
+CUST-0600,Ishaan Pandey,Home Office,Gangtok,Sikkim,East,2024-12-15,13,443350.01,23169.72,17,5,2,2,522,Regular Customers,Active,0.0
+CUST-0601,Meera Shaikh,Corporate,Patna,Bihar,East,2024-11-30,19,740211.3,63560.13,32,4,5,4,454,VIP Customers,Warm,0.0
+CUST-0602,Krishna Khan,Consumer,Shimla,Himachal Pradesh,North,2024-04-14,14,395071.55,34508.59,262,1,3,2,132,At-Risk Customers,Likely Churned,395071.55
+CUST-0603,Rohan Chavan,Small Business,Surat,Gujarat,West,2024-12-26,14,558476.62,40483.189999999995,6,5,3,3,533,Loyal Customers,Active,0.0
+CUST-0604,Pranav Gupta 604,Consumer,Gurugram,Haryana,North,2024-12-30,20,341441.65,49120.020000000004,2,5,5,2,552,Loyal Customers,Active,0.0
+CUST-0605,Nikhil Kadam 605,Home Office,Navi Mumbai,Maharashtra,West,2024-11-05,21,974583.66,81751.63,57,3,5,5,355,Loyal Customers,Warm,0.0
+CUST-0606,Aadhya Pandey 606,Consumer,Chandigarh,Chandigarh,North,2024-10-31,11,395003.2,16152.92,62,3,1,2,312,Regular Customers,Warm,0.0
+CUST-0607,Rohan Iyer 607,Consumer,Mumbai,Maharashtra,West,2024-12-11,16,722788.5299999999,85065.66,21,4,4,4,444,VIP Customers,Active,0.0
+CUST-0608,Aadhya Sawant,Corporate,Panaji,Goa,West,2024-10-30,12,293440.26,28447.199999999997,63,3,2,1,321,Regular Customers,Warm,0.0
+CUST-0609,Sneha Malhotra,Corporate,Shimla,Himachal Pradesh,North,2024-11-18,14,413995.54,50063.92,44,4,3,2,432,Loyal Customers,Warm,0.0
+CUST-0610,Saanvi Khan,Corporate,Shimla,Himachal Pradesh,North,2024-10-15,11,406268.5,44406.13,78,3,1,2,312,Regular Customers,Warm,0.0
+CUST-0611,Avni Khan 611,Consumer,Gangtok,Sikkim,East,2024-11-26,13,377879.99,37265.899999999994,36,4,2,2,422,Regular Customers,Warm,0.0
+CUST-0612,Rahul Iyer 612,Consumer,Bengaluru,Karnataka,South,2024-08-25,21,438952.31,48537.22,129,2,5,2,252,At-Risk Customers,Churn Risk,438952.31
+CUST-0613,Pooja Ansari 613,Home Office,Jaipur,Rajasthan,West,2024-10-05,16,303643.88,29590.550000000003,88,2,4,1,241,At-Risk Customers,Warm,0.0
+CUST-0614,Sneha Mishra 614,Home Office,Vijayawada,Andhra Pradesh,South,2024-12-31,14,469424.63,8433.870000000003,1,5,3,2,532,Loyal Customers,Active,0.0
+CUST-0615,Pranav Reddy,Consumer,Patna,Bihar,East,2024-11-26,21,375723.31,42049.22,36,4,5,2,452,Loyal Customers,Warm,0.0
+CUST-0616,Myra Sawant,Consumer,Lucknow,Uttar Pradesh,North,2024-12-17,13,346889.01,19905.66,15,5,2,2,522,Regular Customers,Active,0.0
+CUST-0617,Meera Malhotra 617,Consumer,Patna,Bihar,East,2024-11-29,13,581702.62,65856.34,33,4,2,3,423,Regular Customers,Warm,0.0
+CUST-0618,Aadhya Reddy,Consumer,Dehradun,Uttarakhand,North,2024-12-17,13,362663.83,40575.060000000005,15,5,2,2,522,Regular Customers,Active,0.0
+CUST-0619,Ira Deshmukh,Consumer,Mysuru,Karnataka,South,2024-07-13,13,570364.38,67403.44,172,1,2,3,123,Lost Customers,Churn Risk,570364.38
+CUST-0620,Pooja Sawant,Consumer,Raipur,Chhattisgarh,Central,2024-12-23,25,334776.39,32429.5,9,5,5,2,552,Loyal Customers,Active,0.0
+CUST-0621,Rahul Yadav,Corporate,New Delhi,Delhi,North,2024-11-09,16,668242.8,60942.42,53,3,4,4,344,Loyal Customers,Warm,0.0
+CUST-0622,Pooja Yadav,Consumer,Nagpur,Maharashtra,West,2024-12-16,17,790419.11,109783.06999999999,16,5,4,4,544,VIP Customers,Active,0.0
+CUST-0623,Arjun Agarwal,Corporate,Nagpur,Maharashtra,West,2024-11-07,20,1201385.38,150738.91,55,3,5,5,355,Loyal Customers,Warm,0.0
+CUST-0624,Kunal Singh,Consumer,Dehradun,Uttarakhand,North,2023-12-25,15,773649.11,57392.06,373,1,3,4,134,At-Risk Customers,Likely Churned,773649.11
+CUST-0625,Ishaan Sharma,Consumer,Chandigarh,Chandigarh,North,2024-10-22,14,538601.24,46352.409999999996,71,3,3,3,333,Loyal Customers,Warm,0.0
+CUST-0626,Pranav Patel 626,Corporate,Agartala,Tripura,East,2024-11-11,21,307755.45,25659.19,51,3,5,1,351,Loyal Customers,Warm,0.0
+CUST-0627,Vivaan Sharma,Consumer,Patna,Bihar,East,2024-12-05,13,872677.4199999999,80655.39,27,4,2,5,425,Regular Customers,Active,0.0
+CUST-0628,Priya Sawant,Consumer,Chennai,Tamil Nadu,South,2024-12-09,17,695147.32,43856.36,23,4,4,4,444,VIP Customers,Active,0.0
+CUST-0629,Avni Sharma 629,Home Office,Ranchi,Jharkhand,East,2024-12-02,18,588614.39,81406.04,30,4,4,3,443,Loyal Customers,Active,0.0
+CUST-0630,Diya Verma,Consumer,Jaipur,Rajasthan,West,2024-11-18,15,462955.10000000003,49577.05,44,4,3,2,432,Loyal Customers,Warm,0.0
+CUST-0631,Ira Jain,Home Office,Bengaluru,Karnataka,South,2024-10-11,11,317520.61,24485.129999999997,82,2,1,1,211,Lost Customers,Warm,0.0
+CUST-0632,Kavya Pandey 632,Consumer,Bhubaneswar,Odisha,East,2024-11-11,20,793175.48,87539.6,51,3,5,4,354,Loyal Customers,Warm,0.0
+CUST-0633,Amit Ansari,Small Business,Shimla,Himachal Pradesh,North,2024-11-24,19,1127524.21,53768.0,38,4,5,5,455,VIP Customers,Warm,0.0
+CUST-0634,Myra Iyer,Corporate,Surat,Gujarat,West,2024-11-29,18,576487.48,69009.1,33,4,4,3,443,Loyal Customers,Warm,0.0
+CUST-0635,Aditya Gupta,Consumer,Bhubaneswar,Odisha,East,2024-03-12,11,203853.25,23825.420000000002,295,1,1,1,111,Lost Customers,Likely Churned,203853.25
+CUST-0636,Meera Deshmukh,Corporate,Nagpur,Maharashtra,West,2024-11-30,16,773772.86,81759.8,32,4,4,4,444,VIP Customers,Warm,0.0
+CUST-0637,Ananya Gupta 637,Home Office,Raipur,Chhattisgarh,Central,2024-11-08,14,194329.75,12394.4,54,3,3,1,331,Loyal Customers,Warm,0.0
+CUST-0638,Rohan Patil,Home Office,Jaipur,Rajasthan,West,2024-11-09,15,1595695.5,154735.27000000002,53,3,3,5,335,Loyal Customers,Warm,0.0
+CUST-0639,Aditya Mehta,Home Office,Chandigarh,Chandigarh,North,2024-08-26,14,665335.03,80502.69,128,2,3,4,234,At-Risk Customers,Churn Risk,665335.03
+CUST-0640,Isha Deshmukh,Consumer,Chennai,Tamil Nadu,South,2024-05-23,13,363956.53,11863.91,223,1,2,2,122,Lost Customers,Likely Churned,363956.53
+CUST-0641,Arjun Kadam 641,Home Office,Chennai,Tamil Nadu,South,2024-10-09,17,1160894.4200000002,134510.87,84,2,4,5,245,At-Risk Customers,Warm,0.0
+CUST-0642,Isha Kadam,Consumer,Navi Mumbai,Maharashtra,West,2024-12-24,18,1441782.11,113267.72,8,5,4,5,545,VIP Customers,Active,0.0
+CUST-0643,Siddhesh Sharma,Corporate,Chandigarh,Chandigarh,North,2024-11-03,13,670715.5499999999,48391.97,59,3,2,4,324,Regular Customers,Warm,0.0
+CUST-0644,Amit Malhotra,Consumer,Ahmedabad,Gujarat,West,2024-09-09,14,282589.59,25720.28,114,2,3,1,231,At-Risk Customers,Churn Risk,282589.59
+CUST-0645,Isha Mehta 645,Corporate,Kolkata,West Bengal,East,2024-12-04,17,1069100.11,100874.0,28,4,4,5,445,VIP Customers,Active,0.0
+CUST-0646,Riya Reddy 646,Corporate,Kolkata,West Bengal,East,2024-11-29,16,386132.83999999997,32249.06,33,4,4,2,442,Loyal Customers,Warm,0.0
+CUST-0647,Krishna Pandey 647,Consumer,Surat,Gujarat,West,2024-09-29,17,575978.41,57660.95,94,2,4,3,243,At-Risk Customers,Churn Risk,575978.41
+CUST-0648,Rahul Patel 648,Consumer,Jaipur,Rajasthan,West,2024-10-29,22,896731.1699999999,108839.63,64,3,5,5,355,Loyal Customers,Warm,0.0
+CUST-0649,Arjun Reddy,Small Business,Bhubaneswar,Odisha,East,2024-09-26,15,744048.03,46317.86,97,2,3,4,234,At-Risk Customers,Churn Risk,744048.03
+CUST-0650,Siddhesh Sharma 650,Corporate,Chennai,Tamil Nadu,South,2024-11-04,13,597590.91,85451.23,58,3,2,3,323,Regular Customers,Warm,0.0
+CUST-0651,Saurabh Deshmukh,Consumer,Dehradun,Uttarakhand,North,2024-12-21,21,269044.89,26966.29,11,5,5,1,551,Loyal Customers,Active,0.0
+CUST-0652,Nikhil Shaikh,Corporate,Ludhiana,Punjab,North,2024-08-28,15,2200728.08,299738.76,126,2,3,5,235,At-Risk Customers,Churn Risk,2200728.08
+CUST-0653,Nikhil Gupta,Corporate,Hyderabad,Telangana,South,2024-12-20,19,1071560.94,135713.86000000002,12,5,5,5,555,VIP Customers,Active,0.0
+CUST-0654,Arjun Gupta,Consumer,Chennai,Tamil Nadu,South,2024-12-18,12,253007.4,22372.86,14,5,2,1,521,Regular Customers,Active,0.0
+CUST-0655,Ishaan Sawant,Consumer,Kolkata,West Bengal,East,2024-08-21,10,73220.42,12982.449999999999,133,2,1,1,211,Lost Customers,Churn Risk,73220.42
+CUST-0656,Reyansh Gupta,Small Business,Mumbai,Maharashtra,West,2024-12-16,20,967471.15,26248.929999999997,16,5,5,5,555,VIP Customers,Active,0.0
+CUST-0657,Saurabh Pillai 657,Consumer,Chennai,Tamil Nadu,South,2024-11-01,12,532791.59,48441.479999999996,61,3,2,3,323,Regular Customers,Warm,0.0
+CUST-0658,Sai Yadav 658,Consumer,Ranchi,Jharkhand,East,2024-07-25,10,101265.9,13845.42,160,1,1,1,111,Lost Customers,Churn Risk,101265.9
+CUST-0659,Meera Joshi,Consumer,Patna,Bihar,East,2024-12-23,24,585865.84,33881.97,9,5,5,3,553,Loyal Customers,Active,0.0
+CUST-0660,Sai Pillai 660,Corporate,Surat,Gujarat,West,2024-12-28,21,1497882.0,147483.39,4,5,5,5,555,VIP Customers,Active,0.0
+CUST-0661,Siddhesh Bansal 661,Consumer,Kolkata,West Bengal,East,2024-12-19,10,351551.87,33332.13,13,5,1,2,512,Regular Customers,Active,0.0
+CUST-0662,Kunal Khan 662,Corporate,Surat,Gujarat,West,2024-10-18,11,567910.24,57006.04,75,3,1,3,313,Regular Customers,Warm,0.0
+CUST-0663,Meera Saxena 663,Corporate,Shimla,Himachal Pradesh,North,2024-07-14,18,373424.0,35496.76,171,1,4,2,142,At-Risk Customers,Churn Risk,373424.0
+CUST-0664,Ananya Kadam 664,Consumer,Kolkata,West Bengal,East,2024-10-08,16,495068.27,49622.21,85,2,4,3,243,At-Risk Customers,Warm,0.0
+CUST-0665,Kavya Iyer 665,Consumer,Chennai,Tamil Nadu,South,2024-02-23,11,259583.59,34166.12,313,1,1,1,111,Lost Customers,Likely Churned,259583.59
+CUST-0666,Arjun Yadav 666,Consumer,Ranchi,Jharkhand,East,2024-08-07,21,971646.96,74190.48999999999,147,1,5,5,155,At-Risk Customers,Churn Risk,971646.96
+CUST-0667,Rekha Deshmukh 667,Consumer,Ahmedabad,Gujarat,West,2024-10-15,11,615368.41,32644.55,78,3,1,3,313,Regular Customers,Warm,0.0
+CUST-0668,Ira Sawant,Corporate,Raipur,Chhattisgarh,Central,2024-11-29,24,1289983.43,8692.16,33,4,5,5,455,VIP Customers,Warm,0.0
+CUST-0669,Aadhya Ansari,Consumer,Jaipur,Rajasthan,West,2024-11-19,13,436993.08,58185.68,43,4,2,2,422,Regular Customers,Warm,0.0
+CUST-0670,Aarav Khan,Home Office,Mysuru,Karnataka,South,2024-12-16,19,792807.18,37314.47,16,5,5,4,554,VIP Customers,Active,0.0
+CUST-0671,Nikhil Pandey,Consumer,Mysuru,Karnataka,South,2024-03-05,18,973779.04,74462.66,302,1,4,5,145,At-Risk Customers,Likely Churned,973779.04
+CUST-0672,Omkar Agarwal,Consumer,New Delhi,Delhi,North,2024-12-20,16,598403.46,52472.19,12,5,4,3,543,Loyal Customers,Active,0.0
+CUST-0673,Nandini Bhosale 673,Consumer,Gurugram,Haryana,North,2024-11-25,17,983455.87,87983.36,37,4,4,5,445,VIP Customers,Warm,0.0
+CUST-0674,Diya Khan,Consumer,Vijayawada,Andhra Pradesh,South,2024-06-14,19,775650.4199999999,83241.23,201,1,5,4,154,At-Risk Customers,Likely Churned,775650.4199999999
+CUST-0675,Pooja Patil,Consumer,Shimla,Himachal Pradesh,North,2024-09-28,18,529154.0,36055.25,95,2,4,3,243,At-Risk Customers,Churn Risk,529154.0
+CUST-0676,Kavya Agarwal 676,Consumer,Bhubaneswar,Odisha,East,2024-12-07,19,703690.0599999999,70950.58,25,4,5,4,454,VIP Customers,Active,0.0
+CUST-0677,Isha Jain 677,Corporate,Ludhiana,Punjab,North,2024-09-12,17,432403.93,57779.600000000006,111,2,4,2,242,At-Risk Customers,Churn Risk,432403.93
+CUST-0678,Meera Sharma,Small Business,Gangtok,Sikkim,East,2024-08-16,14,376090.46,35699.17,138,2,3,2,232,At-Risk Customers,Churn Risk,376090.46
+CUST-0679,Saanvi Ansari,Home Office,Hyderabad,Telangana,South,2024-11-13,19,566653.67,55424.33,49,3,5,3,353,Loyal Customers,Warm,0.0
+CUST-0680,Arjun Agarwal 680,Corporate,Patna,Bihar,East,2024-07-16,19,774494.12,84640.15,169,1,5,4,154,At-Risk Customers,Churn Risk,774494.12
+CUST-0681,Krishna Chavan 681,Consumer,Kochi,Kerala,South,2024-11-13,15,857842.59,150612.24,49,3,3,4,334,Loyal Customers,Warm,0.0
+CUST-0682,Ishaan Bhosale,Corporate,Ranchi,Jharkhand,East,2024-10-26,19,815962.2,83905.79,67,3,5,4,354,Loyal Customers,Warm,0.0
+CUST-0683,Arjun Ansari 683,Corporate,Agartala,Tripura,East,2024-10-05,21,752719.44,85644.29,88,2,5,4,254,At-Risk Customers,Warm,0.0
+CUST-0684,Riya Joshi 684,Consumer,Patna,Bihar,East,2024-12-13,17,549175.06,38122.68,19,5,4,3,543,Loyal Customers,Active,0.0
+CUST-0685,Pranav Bhosale 685,Consumer,Surat,Gujarat,West,2024-03-01,10,740681.83,44050.58,306,1,1,4,114,Lost Customers,Likely Churned,740681.83
+CUST-0686,Ira Kadam 686,Consumer,Coimbatore,Tamil Nadu,South,2024-11-29,14,167405.44,14523.87,33,4,3,1,431,Loyal Customers,Warm,0.0
+CUST-0687,Sakshi Patel,Small Business,Bhubaneswar,Odisha,East,2024-10-30,17,213492.81,26533.510000000002,63,3,4,1,341,Loyal Customers,Warm,0.0
+CUST-0688,Rohan Pandey 688,Consumer,Ranchi,Jharkhand,East,2024-11-15,14,370544.42,30905.75,47,3,3,2,332,Loyal Customers,Warm,0.0
+CUST-0689,Reyansh Nair,Consumer,Dehradun,Uttarakhand,North,2024-11-04,17,351616.76,14671.93,58,3,4,2,342,Loyal Customers,Warm,0.0
+CUST-0690,Priya Kulkarni 690,Consumer,Dehradun,Uttarakhand,North,2024-12-17,18,568336.21,41341.65,15,5,4,3,543,Loyal Customers,Active,0.0
+CUST-0691,Amit Ansari 691,Consumer,Lucknow,Uttar Pradesh,North,2024-12-26,21,304176.61,31188.3,6,5,5,1,551,Loyal Customers,Active,0.0
+CUST-0692,Vivaan Deshmukh,Consumer,Jaipur,Rajasthan,West,2024-09-21,13,893981.39,95488.3,102,2,2,5,225,Lost Customers,Churn Risk,893981.39
+CUST-0693,Sai Verma,Consumer,Lucknow,Uttar Pradesh,North,2024-10-19,21,395941.26999999996,48980.1,74,3,5,2,352,Loyal Customers,Warm,0.0
+CUST-0694,Rohan Ansari,Consumer,Chandigarh,Chandigarh,North,2024-12-20,21,494530.99,40320.59,12,5,5,3,553,Loyal Customers,Active,0.0
+CUST-0695,Rahul Deshmukh,Consumer,Jaipur,Rajasthan,West,2024-11-27,13,238690.18,33292.91,35,4,2,1,421,Regular Customers,Warm,0.0
+CUST-0696,Saurabh Reddy 696,Consumer,Ahmedabad,Gujarat,West,2024-05-22,10,931753.99,163213.99,224,1,1,5,115,Lost Customers,Likely Churned,931753.99
+CUST-0697,Ayaan Sharma 697,Corporate,Mysuru,Karnataka,South,2024-06-03,9,360627.28,17224.0,212,1,1,2,112,Lost Customers,Likely Churned,360627.28
+CUST-0698,Ananya Malhotra,Consumer,Shimla,Himachal Pradesh,North,2024-10-18,10,222823.38999999998,25507.15,75,3,1,1,311,Regular Customers,Warm,0.0
+CUST-0699,Meera Yadav,Corporate,Mysuru,Karnataka,South,2024-05-17,13,306358.25,26082.899999999998,229,1,2,1,121,Lost Customers,Likely Churned,306358.25
+CUST-0700,Yash Mehta 700,Corporate,Bhubaneswar,Odisha,East,2024-11-28,18,730406.6599999999,54900.46,34,4,4,4,444,VIP Customers,Warm,0.0
+CUST-0701,Diya Chavan,Consumer,Ranchi,Jharkhand,East,2023-08-02,7,160210.74,30697.51,518,1,1,1,111,Lost Customers,Likely Churned,160210.74
+CUST-0702,Sakshi Saxena 702,Consumer,Gurugram,Haryana,North,2024-10-02,17,1502324.85,129746.5,91,2,4,5,245,At-Risk Customers,Churn Risk,1502324.85
+CUST-0703,Omkar Khan,Corporate,Mumbai,Maharashtra,West,2024-11-02,17,680045.1,56945.18,60,3,4,4,344,Loyal Customers,Warm,0.0
+CUST-0704,Saanvi Nair,Corporate,Ahmedabad,Gujarat,West,2024-11-09,16,707017.49,13126.130000000001,53,3,4,4,344,Loyal Customers,Warm,0.0
+CUST-0705,Riya Yadav,Consumer,Puducherry,Puducherry,South,2024-10-05,21,595757.6,67504.08,88,2,5,3,253,At-Risk Customers,Warm,0.0
+CUST-0706,Yash Verma 706,Corporate,Bengaluru,Karnataka,South,2024-04-14,18,627969.93,72994.17,262,1,4,3,143,At-Risk Customers,Likely Churned,627969.93
+CUST-0707,Pooja Joshi,Corporate,Vijayawada,Andhra Pradesh,South,2024-10-27,8,1418427.53,136250.67,66,3,1,5,315,Regular Customers,Warm,0.0
+CUST-0708,Sakshi Khan,Consumer,Panaji,Goa,West,2024-11-09,15,1332366.09,120812.88,53,3,3,5,335,Loyal Customers,Warm,0.0
+CUST-0709,Yash Machale,Home Office,Ludhiana,Punjab,North,2024-10-26,11,277568.36,42848.41,67,3,1,1,311,Regular Customers,Warm,0.0
+CUST-0710,Rekha Malhotra 710,Corporate,Surat,Gujarat,West,2024-11-14,19,813081.68,66839.95999999999,48,3,5,4,354,Loyal Customers,Warm,0.0
+CUST-0711,Siddhesh Verma,Consumer,Shimla,Himachal Pradesh,North,2024-11-28,18,933280.99,83334.64,34,4,4,5,445,VIP Customers,Warm,0.0
+CUST-0712,Diya Pillai,Consumer,Lucknow,Uttar Pradesh,North,2024-08-09,17,756352.63,64635.2,145,1,4,4,144,At-Risk Customers,Churn Risk,756352.63
+CUST-0713,Kunal Machale 713,Corporate,New Delhi,Delhi,North,2024-07-21,15,304755.82,44383.81,164,1,3,1,131,At-Risk Customers,Churn Risk,304755.82
+CUST-0714,Omkar Yadav 714,Corporate,Raipur,Chhattisgarh,Central,2024-08-22,15,401921.01,34551.67,132,2,3,2,232,At-Risk Customers,Churn Risk,401921.01
+CUST-0715,Diya Kulkarni 715,Consumer,Noida,Uttar Pradesh,North,2024-10-31,14,430592.86,23134.719999999998,62,3,3,2,332,Loyal Customers,Warm,0.0
+CUST-0716,Krishna Yadav,Home Office,Vijayawada,Andhra Pradesh,South,2024-11-24,13,854869.91,9006.93,38,4,2,4,424,Regular Customers,Warm,0.0
+CUST-0717,Sakshi Patel 717,Small Business,Coimbatore,Tamil Nadu,South,2024-10-17,11,681660.05,67858.72,76,3,1,4,314,Regular Customers,Warm,0.0
+CUST-0718,Pooja Singh,Home Office,Gurugram,Haryana,North,2024-12-26,15,870043.4500000001,91986.18000000001,6,5,3,5,535,Loyal Customers,Active,0.0
+CUST-0719,Meera Joshi 719,Consumer,Raipur,Chhattisgarh,Central,2024-11-17,11,305766.77999999997,36846.83,45,4,1,1,411,Regular Customers,Warm,0.0
+CUST-0720,Pooja Shaikh,Consumer,Guwahati,Assam,East,2024-12-17,20,476025.43,40764.59,15,5,5,2,552,Loyal Customers,Active,0.0
